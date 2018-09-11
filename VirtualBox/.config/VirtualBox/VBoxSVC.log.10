@@ -1,0 +1,88 @@
+VirtualBox XPCOM Server 5.2.18 r123745 linux.amd64 (Aug 15 2018 12:32:31) release log
+00:00:00.000277 main     Log opened 2018-09-05T22:40:29.526769000Z
+00:00:00.000278 main     Build Type: release
+00:00:00.000280 main     OS Product: Linux
+00:00:00.000281 main     OS Release: 4.18.5-1-MANJARO
+00:00:00.000282 main     OS Version: #1 SMP PREEMPT Fri Aug 24 16:36:58 UTC 2018
+00:00:00.000296 main     DMI Product Name: OMEN by HP Laptop
+00:00:00.000301 main     DMI Product Version: Type1ProductConfigId
+00:00:00.000327 main     Host RAM: 15928MB (15.5GB) total, 15526MB (15.1GB) available
+00:00:00.000329 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000330 main     Process ID: 29711
+00:00:00.000331 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001794 main     IPC socket path: /tmp/.vbox-risan-ipc/ipcd
+00:00:00.108055 nspr-2   VirtualBox: object creation starts
+00:00:00.108196 nspr-2   Home directory: '/home/risan/.config/VirtualBox'
+00:00:00.108500 nspr-2   Loading settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.109870 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2a)
+00:00:00.109969 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.125309 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.135416 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.135445 nspr-2   HostDnsMonitor: old information
+00:00:00.135449 nspr-2     no server entries
+00:00:00.135452 nspr-2     no domain set
+00:00:00.135454 nspr-2     no search string entries
+00:00:00.135456 nspr-2   HostDnsMonitor: new information
+00:00:00.135459 nspr-2     server 1: 192.168.1.1
+00:00:00.135462 nspr-2     domain: ib-wrb302n.setup.cn
+00:00:00.135464 nspr-2     search string 1: ib-wrb302n.setup.cn
+00:00:00.135468 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.145887 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.146002 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.146399 nspr-2   VirtualBox: object created
+00:00:56.890784 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.274787 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:15.336280 nspr-2   Saving settings file "/home/risan/VirtualBox VMs/Itunes/Itunes.vbox" with version "1.15-linux"
+00:01:15.370199 nspr-3   Saving settings file "/home/risan/VirtualBox VMs/Itunes/Itunes.vbox" with version "1.15-linux"
+00:01:15.392177 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:15.443053 nspr-4   Saving settings file "/home/risan/VirtualBox VMs/Itunes/Itunes.vbox" with version "1.15-linux"
+00:01:15.512773 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:01:20.356961 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:20.370963 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:02:05.921884 nspr-4   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:05.961192 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:50.518121 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 0 of controller 'SATA'}, preserve=false aResultDetail=0
+00:02:50.545360 nspr-2   Saving settings file "/home/risan/VirtualBox VMs/Itunes/Itunes.vbox" with version "1.15-linux"
+00:02:50.569143 nspr-2   Saving settings file "/home/risan/VirtualBox VMs/Itunes/Itunes.vbox" with version "1.15-linux"
+00:03:40.136495 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp''install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack' '--sha-256' '3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68'
+00:03:54.358500 ExtPackInst ExtPack: enmReason=1 iStatus=1 stderr='[sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-d24e4f/stdout --stderr /tmp/VBoxExtPackHelper-d24e4f/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:03:54.358506 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-d24e4f/stdout --stderr /tmp/VBoxExtPackHelper-d24e4f/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:03:54.358506 ExtPackInst '
+00:03:54.358537 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={The installer failed with exit code 1: [sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-d24e4f/stdout --stderr /tmp/VBoxExtPackHelper-d24e4f/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:03:54.358544 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-d24e4f/stdout --stderr /tmp/VBoxExtPackHelper-d24e4f/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found}, preserve=false aResultDetail=0
+00:04:15.349404 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp''install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack' '--sha-256' '3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68'
+00:04:30.836388 ExtPackInst ExtPack: enmReason=1 iStatus=1 stderr='[sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-j3d4f3/stdout --stderr /tmp/VBoxExtPackHelper-j3d4f3/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:04:30.836392 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-j3d4f3/stdout --stderr /tmp/VBoxExtPackHelper-j3d4f3/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:04:30.836392 ExtPackInst '
+00:04:30.836422 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={The installer failed with exit code 1: [sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-j3d4f3/stdout --stderr /tmp/VBoxExtPackHelper-j3d4f3/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:04:30.836427 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-j3d4f3/stdout --stderr /tmp/VBoxExtPackHelper-j3d4f3/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found}, preserve=false aResultDetail=0
+00:04:37.596858 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:38.428468 nspr-4   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:38.451544 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:38.481536 nspr-5   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:38.509933 nspr-6   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:38.550157 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.819073 nspr-6   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.839615 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.873586 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.901809 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:48.348340 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp''install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack' '--sha-256' '3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68'
+00:05:02.992837 ExtPackInst ExtPack: enmReason=1 iStatus=1 stderr='[sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-rz6cw9/stdout --stderr /tmp/VBoxExtPackHelper-rz6cw9/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:02.992841 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-rz6cw9/stdout --stderr /tmp/VBoxExtPackHelper-rz6cw9/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:02.992842 ExtPackInst '
+00:05:02.992880 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={The installer failed with exit code 1: [sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-rz6cw9/stdout --stderr /tmp/VBoxExtPackHelper-rz6cw9/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:02.992886 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-rz6cw9/stdout --stderr /tmp/VBoxExtPackHelper-rz6cw9/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /tmp/mozilla_risan0/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found}, preserve=false aResultDetail=0
+00:05:27.177248 nspr-5   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:27.284707 nspr-4   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:27.310203 nspr-4   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:27.351056 nspr-5   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:35.118684 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp''install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/home/risan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack' '--sha-256' '3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68'
+00:05:49.594636 ExtPackInst ExtPack: enmReason=1 iStatus=1 stderr='[sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-0ku13o/stdout --stderr /tmp/VBoxExtPackHelper-0ku13o/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /home/risan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:49.594657 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-0ku13o/stdout --stderr /tmp/VBoxExtPackHelper-0ku13o/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /home/risan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:49.594657 ExtPackInst '
+00:05:49.594680 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={The installer failed with exit code 1: [sudo] password for risan: sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-0ku13o/stdout --stderr /tmp/VBoxExtPackHelper-0ku13o/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /home/risan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found
+00:05:49.594685 ExtPackInst sudo: /usr/lib/virtualbox/VBoxExtPackHelperApp --stdout /tmp/VBoxExtPackHelper-0ku13o/stdout --stderr /tmp/VBoxExtPackHelper-0ku13o/stderr --elevated install --base-dir /usr/lib/virtualbox/ExtensionPacks --cert-dir /usr/share/virtualbox/ExtPackCertificates --name 'Oracle VM VirtualBox Extension Pack' --tarball /home/risan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack --sha-256 3ecb43c71502741f4eb790576c608eb65cd424bcf3dfdb56471e4a2cac806f68: command not found}, preserve=false aResultDetail=0
+00:06:33.020238 nspr-5   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:33.045412 nspr-2   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:33.113356 nspr-3   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:34.865444 nspr-4   Saving settings file "/home/risan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"

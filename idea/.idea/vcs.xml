@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.SpaceVim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.config/SpaceVim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.config/antigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.config/nvim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.vim" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+Clight
+* Software version:		2.4
+* Starting time:		Mon Sep 10 10:36:09 2018
+
+Starting options:
+
+### Generic ###
+* Verbose (debugging):		Disabled
+* Number of captures:		20
+* Webcam device:		Unset
+* Backlight path:		Unset
+* User position:		28.70	77.10
+* Daily screen temp:		6500
+* Nightly screen temp:		4000
+* User set sunrise:		Unset
+* User set sunset:		Unset
+* Event duration:		1800
+* Dimmer backlight pct:		0.05
+
+### Timeouts ###
+* Daily timeouts:		AC 600	BATT 1200
+* Nightly timeout:		AC 2700	BATT 5400
+* Event timeouts:		AC 300	BATT 600
+* Dimmer timeouts:		AC 45	BATT 20
+* Dpms timeouts:		AC 900:1200:1800	BATT 300:420:600
+
+### Modules ###
+* Brightness correction:		Enabled
+* Gamma correction:		Enabled
+* Screen dpms tool:		Enabled
+* Screen dimmer tool:		Enabled
+
+### Smooth ###
+* Bright smooth trans:		Enabled
+* Gamma smooth trans:		Enabled
+* Dimmer smooth trans:		Enabled
+* Bright smooth steps:		0.05
+* Gamma smooth steps:		50
+* Dimmer smooth steps:		0.05
+* Bright smooth timeout:		30
+* Gamma smooth timeout:		300
+* Dimmer smooth timeout:		30
+
+(I)[10:36:09]{clightd.c:54}	Clightd found, version: 2.3.
+(I)[10:36:09]{gamma.c:199}	6500 gamma temp set.
+(I)[10:36:09]{gamm(I)[10:44:50]{brightness.c:98}	New brightness pct value: 0.744683
+(I)[10:54:51]{brightness.c:98}	New brightness pct value: 0.718189
+(I)[11:04:52]{brightness.c:98}	New brightness pct value: 0.688489
+(I)[11:14:53]{brightness.c:98}	New brightness pct value: 0.660593
+(I)[11:24:55]{brightness.c:98}	New brightness pct value: 0.727689
+(I)[11:34:56]{brightness.c:98}	New brightness pct value: 0.675160
+(I)[11:44:57]{brightness.c:98}	New brightness pct value: 0.658673
+(I)[11:54:58]{brightness.c:98}	New brightness pct value: 0.754700
+(I)[12:04:59]{brightness.c:98}	New brightness pct value: 0.682673
+(I)[12:11:46]{signal.c:57}	received signal 15. Leaving.

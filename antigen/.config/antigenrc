@@ -1,0 +1,23 @@
+###ANTIGEN AND MY ENABLED BUNDLES
+
+#----MODULE-LOADING--------------------------------------------------------------------------------------------------
+
+antigen bundle supercrabtree/k
+antigen bundle bhilburn/powerlevel9k # Powerlevel9k theme
+antigen bundle psprint/zsh-navigation-tools
+antigen bundle willghatch/zsh-snippets
+antigen bundle b4b4r07/enhancd
+antigen bundle unixorn/awesome-zsh-plugins
+antigen bundle clvv/fasd
+antigen bundle mollifier/anyframe
+
+# Multimedia bundle
+antigen bundle rg3/youtube-dl
+# Utility bundles
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+antigen bundle srijanshetty/zsh-pip-completion
+antigen apply
+

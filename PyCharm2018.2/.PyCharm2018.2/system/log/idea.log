@@ -1,0 +1,71 @@
+2018-09-09 09:46:43,296 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-09-09 09:46:43,316 [     20]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-182.3684.100, 24 Jul 2018 18:43) 
+2018-09-09 09:46:43,316 [     20]   INFO -        #com.intellij.idea.Main - OS: Linux (4.14.63-rt40-manjaro, amd64) 
+2018-09-09 09:46:43,316 [     20]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1248-b8 (JetBrains s.r.o) 
+2018-09-09 09:46:43,316 [     20]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK 64-Bit Server VM) 
+2018-09-09 09:46:43,319 [     23]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -javaagent:/home/op3ntrp/.config/JetbrainsCrack.jar -XX:ErrorFile=/home/op3ntrp/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/op3ntrp/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharm2018.2 -Djb.vmOptionsFile=/home/op3ntrp/.PyCharm2018.2/config/pycharm64.vmoptions -Didea.platform.prefix=Python 
+2018-09-09 09:46:43,319 [     23]   INFO -        #com.intellij.idea.Main - ext: /opt/JetBrains/pycharm-2018.2/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2018-09-09 09:46:43,319 [     23]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2018-09-09 09:46:43,336 [     40]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 16 ms 
+2018-09-09 09:46:44,759 [   1463]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (IDE-managed HiDPI) 
+2018-09-09 09:46:44,760 [   1464]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.5 
+2018-09-09 09:46:45,470 [   2174]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2018-09-09 09:46:45,471 [   2175]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2018-09-09 09:46:45,551 [   2255]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2018-09-09 09:46:45,741 [   2445]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2018-09-09 09:46:45,742 [   2446]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2018-09-09 09:46:45,991 [   2695]   INFO - .intellij.idea.IdeaApplication - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1b1f43eb[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@18819626 
+2018-09-09 09:46:46,041 [   2745]   INFO - .intellij.idea.IdeaApplication - WM detected: i3 
+2018-09-09 09:46:46,523 [   3227]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2018-09-09 09:46:46,523 [   3227]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2018-09-09 09:46:46,557 [   3261]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2018-09-09 09:46:46,620 [   3324]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2018-09-09 09:46:46,620 [   3324]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2018-09-09 09:46:46,785 [   3489]   INFO - llij.ide.plugins.PluginManager - 56 plugins initialized in 509 ms 
+2018-09-09 09:46:46,785 [   3489]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (182.3684.100), CSS Support (182.3684.100), CVS Integration (11), CoffeeScript (182.3684.100), Concurrency Visualiser (0.1), Database Tools and SQL (182.3684.100), Django Database Support Integration (1.0), Docker integration (182.3684.100), EditorConfig (182.3684.100), File Watchers (182.3684.100), GNU GetText files support (*.po) (182.3684.100), Gherkin (999.999), Git Integration (8.1), GitHub (182.3684.100), HTML Tools (2.0), HTTP Client (182.3684.100), Haml (182.3684.100), IDE Settings Sync (182.3684.100), IDEA CORE (182.3684.100), IPython Notebook (0.1), Ini4Idea (182.3684.100), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Less support (182.3684.100), Markdown support (182.3684.100), Mercurial Integration (10.0), Perforce Integration (2.0), Properties Support (182.3684.100), Puppet Support (182.3684.100), Python BDD support for engines, based on Gherkin (cucumber, lettuce, behave) (0.1), Python Docker (VERSION), Python IntelliLang (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python Profiler (0.1), Python ReStructureText Integration (1.0), Python Remote Interpreter (VERSION), Python Terminal (VERSION), Python UML Diagrams (VERSION), Python pytest-bdd support (0.1), ReStructuredText Support (182.3684.100), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (182.3684.100), Settings Repository (182.3684.100), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (182.3684.100), UML Support (1.0), Vagrant (182.3684.100), YAML (182.3684.100), tslint (182.3684.100) 
+2018-09-09 09:46:47,252 [   3956]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2018-09-09 09:46:47,321 [   4025]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/op3ntrp/.PyCharm2018.2/system/caches/names.dat' does not exist 
+2018-09-09 09:46:47,323 [   4027]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2018-09-09 09:46:47,349 [   4053]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/JetBrains/pycharm-2018.2/bin/fsnotifier64 
+2018-09-09 09:46:47,358 [   4062]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-09-09 09:46:47,516 [   4220]   INFO - tellij.openapi.util.IconLoader - replace '/nodes/newFolder.png' with 'AllIcons.Nodes.Folder' 
+2018-09-09 09:46:48,067 [   4771]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-09-09 09:46:48,068 [   4772]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-09-09 09:46:48,209 [   4913]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-09-09 09:46:48,230 [   4934]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-09-09 09:46:48,270 [   4974]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-09-09 09:46:48,358 [   5062]   INFO - j.ide.ui.OptionsTopHitProvider - 200 ms spent to cache options in application 
+2018-09-09 09:46:48,358 [   5062]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@30ac0b68 
+2018-09-09 09:46:48,475 [   5179]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:121, number of extensions:37 
+2018-09-09 09:46:48,480 [   5184]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:5 
+2018-09-09 09:46:48,552 [   5256]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:68, number of extensions:79 
+2018-09-09 09:46:48,553 [   5257]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-09-09 09:46:48,809 [   5513]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.unittestLegacy.PythonUnitTestConfigurationProducer@4e3edc03 
+2018-09-09 09:46:48,809 [   5513]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.pytestLegacy.PyTestConfigurationProducer@52bfafbf 
+2018-09-09 09:46:48,809 [   5513]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.nosetestLegacy.PythonNoseTestConfigurationProducer@16a58284 
+2018-09-09 09:46:48,833 [   5537]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/op3ntrp/.PyCharm2018.2/system/index/.persistent/prebuilt/Python/id-index.input 
+2018-09-09 09:46:48,891 [   5595]   INFO - pi.util.registry.RegistryValue - Registry value 'ide.ssh.one.time.password' has changed to 'true" 
+2018-09-09 09:46:48,911 [   5615]   INFO - plication.impl.ApplicationImpl - 83 application components initialized in 2640ms 
+2018-09-09 09:46:48,916 [   5620]   INFO - .intellij.idea.IdeaApplication - App initialization took 6285 ms 
+2018-09-09 09:46:49,214 [   5918]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:Stylus,Mako,TypeScript,Cython,Markdown,Flow,Literate CoffeeScript,Jinja2,HTML,Python,Ini,JSX Harmony,SCSS,JavaScript,Puppet,Sass,CoffeeScript,XML,PythonStub,Properties,ActionScript,SQL,TypeScript JSX,CSS,Less,ECMAScript 6 
+2018-09-09 09:46:49,366 [   6070]   INFO - pl$FileIndexDataInitialization - Initialization done:886 
+2018-09-09 09:46:49,444 [   6148]   INFO - exImpl$StubIndexInitialization - Initialization done:77 
+2018-09-09 09:46:49,686 [   6390]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=18, fontScale=1.5 
+2018-09-09 09:46:49,821 [   6525]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2018-09-09 09:46:50,282 [   6986]   INFO - j.ide.ui.OptionsTopHitProvider - 397 ms spent on EDT to cache options in application 
+2018-09-09 09:46:50,433 [   7137]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@4b8d0aee 
+2018-09-09 09:46:50,709 [   7413]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@542bbc1b 
+2018-09-09 09:46:50,951 [   7655]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@4eaff775 
+2018-09-09 09:46:50,958 [   7662]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.actions.GotoClassPresentationUpdater@40dbb320 
+2018-09-09 09:47:05,720 [  22424]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-09-09 09:47:05,720 [  22424]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-09-09 09:47:05,720 [  22424]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-09-09 09:47:05,736 [  22440]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-09-09 09:47:05,738 [  22442]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-09-09 09:47:05,741 [  22445]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-09-09 09:47:05,743 [  22447]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-09-09 09:47:05,745 [  22449]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-09-09 09:47:05,746 [  22450]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-09-09 09:47:05,753 [  22457]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-09-09 09:47:05,754 [  22458]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
