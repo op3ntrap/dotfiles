@@ -420,8 +420,6 @@
 /boot/grub
 /boot/grub/themes
 /
-/home/risan
-/home/risan/.dotfiles
 /home/op3ntrp/.config
 /home/Shared/.dotfiles/PyCharm2018.1/.config
 /home/Shared/.dotfiles
@@ -441,6 +439,8 @@
 /usr/lib/modules/4.16.18-rt12-MANJARO/build/drivers/iio/amplifiers
 /home/Shared
 /home/Shared/dotfiles
-/home/op3ntrp/.dotfiles
 /home/op3ntrp
 /home/op3ntrp/.dotfiles
+/home/risan/.dotfiles
+/home/risan
+/home/risan/.dotfiles
