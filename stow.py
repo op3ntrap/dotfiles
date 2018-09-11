@@ -12,7 +12,8 @@ dotfiles_repo = home_dir + '/.dotfiles'
 pkg = os.listdir(dotfiles_repo)
 # Remove the .git directory from the stow directories
 pkg.remove('.git')
-pkg.remove('.StowLogs')
+if('.StowLogs' in pkg):
+    pkg.remove('.StowLogs')
 pkg = [n for n in pkg if(os.path.isdir(dotfiles_repo+'/'+n))]
 # Let me know everything is smooth until now.
 if (len(os.listdir(dotfiles_repo)) < len(pkg)):
