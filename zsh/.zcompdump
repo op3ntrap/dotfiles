@@ -1,4 +1,4 @@
-#files: 1014	version: 5.5.1
+#files: 871	version: 5.5.1
 
 _comps=(
 '-' '_precommand'
@@ -816,7 +816,6 @@ _comps=(
 'nice' '_nice'
 'ninja' '_ninja'
 'nkf' '_nkf'
-'n-kill' '_n-kill'
 'nl' '_nl'
 'nm' '_nm'
 'nmap' '_nmap'
@@ -1812,36 +1811,7 @@ autoload -Uz _ack _afew _android _ansible _ansible-galaxy \
             _vars _wait _which _widgets _zargs \
             _zattr _zcalc _zcalc_line _zcompile _zed \
             _zftp _zle _zmodload _zmv _zpty \
-            _zsh-mime-handler _zsocket _zstyle _ztodo _n-kill \
-            _ack _afew _android _ansible _ansible-galaxy \
-            _ansible-playbook _ansible-vault _archlinux-java _artisan _atach \
-            _bitcoin-cli _bower _bundle _caffeinate _cap \
-            _cask _ccache _cf _chattr _cheat \
-            _choc _chromium _cmake _coffee _column \
-            _composer _conan _console _dad _debuild \
-            _dget _dhcpcd _diana _docpad _drush \
-            _ecdsautil _emulator _envdir _exportfs _fab \
-            _ffind _fleetctl _flutter _force _gas \
-            _geany _ghc _gist _git-flow _git-journal \
-            _git-pulls _git-wtf _glances _golang _google \
-            _gtk-launch _hledger _homestead _httpie _ibus \
-            _include-what-you-use _jmeter _jmeter-plugins _jonas _jq \
-            _jrnl _kak _kitchen _knife _language_codes \
-            _lsattr _lsblk _lunchy _middleman _mina \
-            _mix _multirust _mussh _mvn _node \
-            _nvm _openssl _optirun _patool _perf \
-            _periscope _pgsql_utils _phing _pixz _pkcon \
-            _play _port _pygmentize _rails _ralio \
-            _redis-cli _rfkill _rkt _rslsync _rspec \
-            _rsvm _rubocop _rvm _sbt _scala \
-            _scons _scrub _sdd _setcap _setup.py \
-            _sfdx _showoff _shutdown _smartmontools _srm \
-            _stack _subl _subliminal _supervisorctl _svm \
-            _tarsnap _teamocil _thor _tmuxinator _tmuxp \
-            _trash-empty _trash-list _trash-put _trash-restore _udisksctl \
-            _ufw _vagrant _virtualbox _vnstat _vpnc \
-            _wemux _xinput _xsel _yaourt _yarn \
-            _zcash-cli
+            _zsh-mime-handler _zsocket _zstyle _ztodo
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
