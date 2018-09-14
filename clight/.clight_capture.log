@@ -1,6 +1,6 @@
 Clight
 * Software version:		2.4
-* Starting time:		Tue Sep 11 08:52:32 2018
+* Starting time:		Fri Sep 14 07:13:33 2018
 
 Starting options:
 
@@ -10,5 +10,5 @@ Starting options:
 * Webcam device:		Unset
 * Backlight path:		Unset
 
-(I)[08:52:32]{clightd.c:54}	Clightd found, version: 2.3.
-(I)[08:52:32]{brightness.c:98}	New brightness pct value: 0.690269
+(I)[07:13:33]{clightd.c:54}	Clightd found, version: 2.3.
+(I)[07:13:35]{brightness.c:98}	New brightness pct value: 0.547973

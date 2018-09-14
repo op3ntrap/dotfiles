@@ -56,14 +56,15 @@ def stow(package):
     logfile = open('./.StowLogs/.stowlog '+ str(datetime.datetime.now()), 'w+')
     for val in log:
         if(log[val]["status"] == "failed"):
-
-            if(sys.argv[1] == "-v" or sys.argv[1] == "--verbose"):
-                print("#"*80 + "\n")
-                print("This Package was unable to deploy : " + val)
-                print("\n\n")
-                print("Debug Info:\n\n" + log[val]["output"] +'\n\n')
-                print("#"*80 + "\n")
-
+            try:
+                if(sys.argv[1] == "-v" or sys.argv[1] == "--verbose"):
+                    print("#"*80 + "\n")
+                    print("This Package was unable to deploy : " + val)
+                    print("\n\n")
+                    print("Debug Info:\n\n" + log[val]["output"] +'\n\n')
+                    print("#"*80 + "\n")
+            except IndexError:
+                print("supply -v to view debug messages in the terminal.")
             logfile.write("This Package was unable to deploy : " + val)
             logfile.write("Debug Info:\n\n" + log[val]["output"] +'\n\n' )
         else:

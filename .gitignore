@@ -1,3 +1,5 @@
 **/cache
 **/.cache
-/.StowLogs
+/.StowLogs/**
+/npm/**
+!/npm/.npmrc

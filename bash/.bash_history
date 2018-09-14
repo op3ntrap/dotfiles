@@ -39,3 +39,22 @@ stow xorg
 ranger
 rr
 ranger
+sudo
+sudo
+vim .antigen/
+rm ~/.zcompdump 
+stow zsh/
+zsh
+cp .zsh_histfile .dotfiles/zsh/
+rm .zsh_histfile 
+cd .dotfiles/
+stow zsh/
+diff zsh/.zcompdump ~/.zcompdump 
+cp ~/.zcompdump zsh/
+rm ~/.zcompdump 
+stow zsh/
+exit
+cd .dotfiles/
+cp ~/.histfile zsh/
+rm ~/.histfile 
+stow zsh/
