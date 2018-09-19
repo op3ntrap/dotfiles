@@ -500,27 +500,27 @@ for_window [class="Xfburn"] floating enable
 bindsym $mod+d exec "rofi -font 'Hack Nerd Font 12' -show-icons -combi-modi drun,run -show combi"  
 bindsym Mod1+Tab exec "rofi -font 'Hack Nerd Font 12' -show-icons -show window"
 bindsym Mod1+Shift+Tab exec "rofi -font 'Hack Nerd Font 12' -show-icons -show keys"
-# launch morc_menu
-# bindsym $mod+z exec --no-startup-id morc_menu
-# launch dmenu
-# bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+Return exec kitty -1
-bindsym $mod+Shift+F1 exec kitty 
-bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+i exec calamares_polkit
+bindsym $mod+Shift+F1 exec kitty 
 bindsym $mod+F2 exec firefox-developer-edition
-bindsym $mod+F4 exec chromium --disk-cache-dir=/tmp/cache
-# bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F3 exec kitty -1 ranger
-# bindsym $mod+Shift+F3 exec gksu pcmanfm
-# bindsym $mod+Shift+F5 exec gksu snapper-gui
-bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+F4 exec chromium --disk-cache-dir=/tmp/cache
+bindsym $mod+F5 exec nvim-gtk
+bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton.conf 
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+# launch morc_menu
+# bindsym $mod+z exec --no-startup-id morc_menu
+# launch dmenu
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+# bindsym $mod+F3 exec pcmanfm
+# bindsym $mod+Shift+F3 exec gksu pcmanfm
+# bindsym $mod+Shift+F5 exec gksu snapper-gui
 
 ################################################################################################
 #*__*# Audio-Configuration
