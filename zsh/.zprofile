@@ -1,3 +1,7 @@
+export PATH=~/.npm/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
+# export PATH=/home/Programs/neovim-gtk/bin:$PATH
+# export PATH=/home/Programs/Neovim/bin:$PATH
 export GTAGSLABEL=pygments
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export EDITOR=/usr/bin/nano
