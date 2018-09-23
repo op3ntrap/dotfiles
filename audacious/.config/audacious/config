@@ -22,10 +22,10 @@ entry_count_visible=TRUE
 infoarea_show_vis=FALSE
 infoarea_visible=FALSE
 menu_visible=FALSE
-player_height=837
-player_width=632
-player_x=1282
-player_y=-1
+player_height=919
+player_width=837
+player_x=961
+player_y=-2
 statusbar_visible=FALSE
 
 [gtkui-layout]

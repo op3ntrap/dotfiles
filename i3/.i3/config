@@ -182,7 +182,6 @@ exec_always --no-startup-id clight -c
 # exec compton -b --config ~/.config/compton.conf 
 # exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id "sleep 20;nice -20 xdman"
-exec_always --no-startup-id "sleep 30; xdotool search --name 'XDM 2018' windowclose"
 # exec --no-startup-id blueman
 # exec --no-startup-id clipit
 # exec --no-startup-id desktop-items
@@ -503,10 +502,10 @@ bindsym Mod1+Shift+Tab exec "rofi -font 'Hack Nerd Font 12' -show-icons -show ke
 bindsym $mod+Return exec kitty -1
 bindsym $mod+i exec calamares_polkit
 bindsym $mod+Shift+F1 exec kitty 
-bindsym $mod+F2 exec firefox-developer-edition
-bindsym $mod+F3 exec kitty -1 ranger
-bindsym $mod+F4 exec chromium --disk-cache-dir=/tmp/cache
-bindsym $mod+F5 exec nvim-gtk
+bindsym $mod+F4 exec firefox-developer-edition
+bindsym $mod+F5 exec kitty -1 ranger
+bindsym $mod+F2 exec chromium --disk-cache-dir=/tmp/cache
+bindsym $mod+F3 exec nvim-gtk
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton.conf 

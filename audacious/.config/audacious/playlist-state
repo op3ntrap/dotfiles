@@ -1,11 +1,11 @@
-active 2
-playing 2
+active 0
+playing 0
 playlist 0
 filename file:///home/risan/Music
 position 0
-shuffle 3,1,0
+shuffle 0
 resume-state 1
-resume-time 30597
+resume-time 2691
 playlist 1
 position -1
 resume-state 1

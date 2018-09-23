@@ -2,6 +2,7 @@ DISABLE_AUTO_TITLE='true'
 NVIM=nvim-gtk
 VISUAL=$NVIM
 EDITOR=$NVIM
+PLUGDIR='$HOME/.local/share/nvim/Plugs'
 XDG_DESKTOP_DIR="$HOME/Desktop"
 XDG_CONFIG_DIR="$HOME/.config"
 XDG_CACHE_DIR="$HOME/.cache"

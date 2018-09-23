@@ -1,27 +1,37 @@
-#SYSTEM
-alias ll='ls -l'
+# SYSTEM
 alias rm='rm'
 alias df='df -h'
 alias chowner='sudo chown risan:risan'
 alias du='du -h'
+# RANGER
 alias rr='ranger'
 alias surr='sudo ranger'
+# VIM
+alias upvim='nvim +PlugInstall +UpdateRemotePlugins +qa'
+alias s='cat ~/pass | sudo -S nvim'
 alias v='nvim'
+alias suvi='sudo nvim'
+# EMBY
 alias emby-start='systemctl start emby-server.service'
 alias emby-stop='systemctl stop emby-server.service'
+# ZSH 
 alias gg='googler'
-alias btstart='systemctl enable bluetooth.service && systemctl start bluetooth.service'
-alias btstop='systemctl disable bluetooth.service'
-alias powertop='sudo powertop'
-alias suvi='sudo nvim'
-alias s='cat ~/pass | sudo -S nvim'
-alias ls='exa'
-alias la='exa -a'
 alias brb='source ~/.zshrc'
 alias swap-sv='rm -R $HOME/.cache/SpaceVim/swap'
 alias swap-nv='rm -R $HOME/.cache/nvim/swap'
 alias ownit='sudo chmod -R 777'
-alias upvim='nvim +PlugInstall +UpdateRemotePlugins +qa'
+# SYSTEMCTL 
+alias btstart='systemctl enable bluetooth.service && systemctl start bluetooth.service'
+alias btstop='systemctl disable bluetooth.service'
+alias powertop='sudo powertop'
+# APP SHORTCUT
+alias idiff='kitty +kitten diff'
+alias icat='kitty +kitten icat'
+# GLOBPATHLIST
+alias ll='k -ha'
+alias la='k -ha'
+alias j='k -ha'
+alias ls='k -h' 
 #DIRECTORY
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -29,3 +39,4 @@ alias ....='cd ../../../../'
 alias doc='cd ~/Documents'
 alias dow='cd ~/Downloads'
 alias dot='cd ~/.dotfiles'
+alias repo='cd /home/Repos/'

@@ -38,23 +38,25 @@ call plug#begin('/home/op3ntrp/.local/share/nvim/Plugs')
 
 	""	#OtherSources
 		Plug 'Shougo/echodoc.vim'
-		Plug 'plasticboy/vim-markdown'
 
-	"""	#Deoplete
+	"""#Deoplete
 		Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-	""	#DeopleteSources
+	""#DeopleteSources
 	"""	#LanguageServerProtocolClient
 		Plug 'autozimu/LanguageClient-neovim',{'branch': 'next',
                       \'do': 'bash install.sh'}
 		Plug 'Shougo/neoinclude.vim'
+		Plug 'Shougo/neosnippet.vim'
+		Plug 'Shougo/neosnippet-snippets'
+		Plug 'honza/vim-snippets'
+		Plug 'Shougo/context_filetype.vim'
 		Plug 'Shougo/neco-vim'
 		Plug 'Shougo/neco-syntax'
 		Plug 'zchee/deoplete-zsh'
 	"""	#DeopleteJedi
-                if (has('nvim'))
-                  Plug 'davidhalter/jedi'
-                  Plug 'zchee/deoplete-jedi'
-                endif
+		Plug 'davidhalter/jedi'
+		Plug 'zchee/deoplete-jedi'
+		Plug 'sheerun/vim-polyglot'
 
 
 	" #Editing(#6)
@@ -66,6 +68,11 @@ call plug#begin('/home/op3ntrp/.local/share/nvim/Plugs')
 		Plug 'terryma/vim-multiple-cursors'
 	"""	#VimStay
 		Plug 'kopischke/vim-stay'
+
+
+	" #Markdown(#2)
+		Plug 'godlygeek/tabular'
+		Plug 'plasticboy/vim-markdown'
 
 
 	 "      #Motion(#2)
@@ -82,7 +89,6 @@ call plug#end()
 	"	Plug 'Taverius/vim-colorscheme-manager'
 	"	Plug 'xolox/vim-misc'
 	"	Plug 'junegunn/fzf.vim'
-        "       Plug 'godlygeek/tabular'
 	"       Plug 'vimwiki/vimwiki'
 "	Plug 'xolox/vim-colorscheme-switcher'
 

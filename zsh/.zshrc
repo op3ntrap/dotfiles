@@ -4,7 +4,7 @@ export TERM=xterm-256color
 HISTFILE=~/.histfile
 HISTSIZE=10000000
 SAVEHIST=10000000
-setopt appendhistory autocd extendedglob nomatch notify
+setopt nomatch notify
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -87,3 +87,7 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 ##FUZZYFINDER
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
+#--------------------------------------------------------------------------------------------------------------------
+##INTEL LIBRARIES OPTIMISED
+source /opt/intel/bin/compilervars.sh
+source $HOME/.antigen/bundles/supercrabtree/k/k.plugin.zsh
