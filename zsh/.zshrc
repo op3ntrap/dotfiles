@@ -61,7 +61,8 @@ zmodload zsh/terminfo
 
 # Modules
 colors
-
+export BROWSER=
+xdg-settings set default-web-browser chromium.desktop
 
 #--------------------------------------------------------------------------------------------------------------------
 ###ANTIGEN INIT
@@ -91,3 +92,5 @@ zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
 ##INTEL LIBRARIES OPTIMISED
 source /opt/intel/bin/compilervars.sh
 source $HOME/.antigen/bundles/supercrabtree/k/k.plugin.zsh
+export IN_THE_LIBRARY=0
+source $HOME/.zsh/library

@@ -1,6 +1,6 @@
 Clight
-* Software version:		2.4
-* Starting time:		Sun Sep 23 00:51:23 2018
+* Software version:		2.5
+* Starting time:		Mon Sep 24 18:58:53 2018
 
 Starting options:
 
@@ -41,10 +41,10 @@ Starting options:
 * Gamma smooth timeout:		300
 * Dimmer smooth timeout:		30
 
-(I)[00:51:23]{clightd.c:54}	Clightd found, version: 2.3.
-(I)[00:51:23]{dpms.c:66}	Disabling DPMS as a timeout <= 0 has been found.
-(I)[00:51:23]{gamma.c:199}	4000 gamma temp set.
-(I)[00:51:23]{gamma.c:87}	Next gamma alarm due to: Sun Sep 23 05:40:00 2018
-(I)[01:04:15]{upower.c:80}	Ac cable disconnected. Powersaving mode enabled.
-(I)[09:00:05]{gamma.c:199}	6500 gamma temp set.
-(I)[09:00:05]{gamma.c:87}	Next gamma alarm due to: Sun Sep 23 17:48:00 2018
+(I)[18:58:53]{./modules/clightd.c:46}	Clightd found, version: 2.4.
+(I)[18:58:53]{./modules/gamma.c:206}	4000 gamma temp set.
+(I)[18:58:53]{./modules/gamma.c:84}	Next gamma alarm due to: Tue Sep 25 05:41:00 2018
+(I)[19:10:27]{./modules/upower.c:67}	Ac cable disconnected. Powersaving mode enabled.
+(I)[19:10:27]{./modules/dpms.c:60}	Disabling DPMS as a timeout <= 0 has been found.
+(I)[19:11:36]{./modules/upower.c:67}	Ac cable connected. Powersaving mode disabled.
+(I)[19:11:36]{./modules/dpms.c:60}	Disabling DPMS as a timeout <= 0 has been found.

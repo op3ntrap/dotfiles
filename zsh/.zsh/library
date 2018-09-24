@@ -1,0 +1,23 @@
+#!/bin/bash
+#When I enter the library
+in_the_library(){
+	if [ $IN_THE_LIBRARY != 0 ]; then
+		echo "You are already in the library please exit first!"
+		return
+	fi
+	export IN_THE_LIBRARY=1
+	mv "$HOME/.i3/config" "$HOME/.i3/config_main"
+	mv "$HOME/.i3/config_library" "$HOME/.i3/config"
+	/usr/bin/i3 reload
+	/usr/bin/i3 restart
+	sudo powertop --auto-tune
+	
+}
+#When I exit the library
+exit_the_library(){
+	export IN_THE_LIBRARY=0
+	mv "$HOME/.i3/config" "$HOME/.i3/config_library"
+	mv "$HOME/.i3/config_main" "$HOME/.i3/config"
+	/usr/bin/i3 reload
+	/usr/bin/i3 restart
+}
