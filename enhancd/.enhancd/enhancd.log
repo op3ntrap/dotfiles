@@ -630,7 +630,6 @@
 /home/Repos/tranqil/build
 /opt/xdman
 /opt/xdman/jre
-/home/Shared
 /home/Repos/presage
 /home/Repos/PacVim
 /home/Documents/Vim
@@ -682,7 +681,8 @@
 /home/Documents
 /home/Repos
 /home/Repos/vscode
-/home/op3ntrp/.dotfiles
 /home/Shared/dotfiles
-/home/op3ntrp
 /home/Shared
+/home/op3ntrp/.dotfiles
+/home/op3ntrp
+/home/op3ntrp/.dotfiles
