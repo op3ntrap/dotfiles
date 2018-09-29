@@ -90,7 +90,6 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
 #--------------------------------------------------------------------------------------------------------------------
 ##INTEL LIBRARIES OPTIMISED
-source /opt/intel/bin/compilervars.sh
 source $HOME/.antigen/bundles/supercrabtree/k/k.plugin.zsh
 export IN_THE_LIBRARY=0
 source $HOME/.zsh/library

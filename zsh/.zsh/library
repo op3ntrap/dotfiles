@@ -21,3 +21,6 @@ exit_the_library(){
 	/usr/bin/i3 reload
 	/usr/bin/i3 restart
 }
+load_intel(){
+  source /opt/intel/bin/compilervars.sh
+}
