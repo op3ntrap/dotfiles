@@ -1,2 +1,47 @@
-(W)[19:46:38]{./utils/log.c:17}	Resource temporarily unavailable
-(E)[19:46:38]{./utils/log.c:18}	A lock is present on „,­û. Another clight instance running? ‘ü?.
+Clight
+* Software version:		2.5
+* Starting time:		Sat Sep 29 20:17:43 2018
+
+Starting options:
+
+### Generic ###
+* Verbose (debugging):		Disabled
+* Number of captures:		20
+* Webcam device:		Unset
+* Backlight path:		Unset
+* User position:		28.70	77.10
+* Daily screen temp:		6500
+* Nightly screen temp:		4000
+* User set sunrise:		Unset
+* User set sunset:		Unset
+* Event duration:		1800
+* Dimmer backlight pct:		0.01
+
+### Timeouts ###
+* Daily timeouts:		AC 600	BATT 1200
+* Nightly timeout:		AC 2700	BATT 5400
+* Event timeouts:		AC 300	BATT 600
+* Dimmer timeouts:		AC 45	BATT 20
+* Dpms timeouts:		AC 0:1200:1800	BATT 300:420:600
+
+### Modules ###
+* Brightness correction:		Disabled
+* Gamma correction:		Enabled
+* Screen dpms tool:		Enabled
+* Screen dimmer tool:		Disabled
+
+### Smooth ###
+* Bright smooth trans:		Enabled
+* Gamma smooth trans:		Enabled
+* Dimmer smooth trans:		Enabled
+* Bright smooth steps:		0.05
+* Gamma smooth steps:		50
+* Dimmer smooth steps:		0.05
+* Bright smooth timeout:		30
+* Gamma smooth timeout:		300
+* Dimmer smooth timeout:		30
+
+(I)[20:17:43]{./modules/clightd.c:46}	Clightd found, version: 2.4.
+(I)[20:17:43]{./modules/gamma.c:206}	4000 gamma temp set.
+(I)[20:17:43]{./modules/gamma.c:84}	Next gamma alarm due to: Sun Sep 30 05:43:00 2018
+(I)[20:17:50]{./modules/signal.c:47}	received signal 15. Leaving.
