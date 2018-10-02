@@ -3,6 +3,8 @@ alias rm='rm'
 alias df='df -h'
 alias chowner='sudo chown risan:risan'
 alias du='du -h'
+# GIT
+alias repup='git add . && git commit -m "Routine Update"'
 # RANGER
 alias rr='ranger'
 alias surr='sudo ranger'
