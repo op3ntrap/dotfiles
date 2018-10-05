@@ -1,5 +1,38 @@
 <application>
   <component name="RecentDirectoryProjectsManager">
-    <option name="pid" value="25204" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/PycharmProjects/ios_exporter" />
+        <option value="$USER_HOME$/PycharmProjects/Scraper" />
+      </list>
+    </option>
+    <option name="pid" value="771" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/Scraper">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3684.100" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538759049707" />
+              <option name="buildTimestamp" value="1532438202311" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/ios_exporter">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3684.100" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538759266189" />
+              <option name="buildTimestamp" value="1532438202311" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
   </component>
 </application>
