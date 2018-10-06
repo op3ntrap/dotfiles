@@ -1,6 +1,6 @@
 Clight
 * Software version:		2.5
-* Starting time:		Sat Sep 29 20:17:43 2018
+* Starting time:		Sat Oct  6 03:27:48 2018
 
 Starting options:
 
@@ -41,7 +41,6 @@ Starting options:
 * Gamma smooth timeout:		300
 * Dimmer smooth timeout:		30
 
-(I)[20:17:43]{./modules/clightd.c:46}	Clightd found, version: 2.4.
-(I)[20:17:43]{./modules/gamma.c:206}	4000 gamma temp set.
-(I)[20:17:43]{./modules/gamma.c:84}	Next gamma alarm due to: Sun Sep 30 05:43:00 2018
-(I)[20:17:50]{./modules/signal.c:47}	received signal 15. Leaving.
+(I)[03:27:48]{./modules/clightd.c:46}	Clightd found, version: 2.4.
+(I)[03:27:48]{./modules/gamma.c:206}	4000 gamma temp set.
+(I)[03:27:48]{./modules/gamma.c:84}	Next gamma alarm due to: Sat Oct  6 05:46:00 2018
