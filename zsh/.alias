@@ -1,12 +1,15 @@
 # SYSTEM
+alias kernelfailsafe='sudo update-grub && sudo mkinitcpio -P'
 alias rm='rm'
 alias df='df -h'
 alias chowner='sudo chown risan:risan'
 alias du='du -h'
+alias dream='sudo powerpill -Sw && sudo pacman -Syyu'
 # GIT
 alias repup='git add . && git commit -m "Routine Update"'
 # RANGER
 alias rr='ranger'
+alias vv='ranger /home/Downloads/Video'
 alias surr='sudo ranger'
 # VIM
 alias upvim='nvim +PlugInstall +UpdateRemotePlugins +qa'

@@ -9284,3 +9284,623 @@ java.lang.NullPointerException
 2018-10-06 06:29:40,421 [  13926]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.actions.GotoClassPresentationUpdater@3c09b770 
 2018-10-06 06:29:40,445 [  13950]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
 2018-10-06 06:29:41,045 [  14550]   INFO - j.ide.ui.OptionsTopHitProvider - 562 ms spent on EDT to cache options in application 
+2018-11-17 01:36:13,780 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-11-17 01:36:13,808 [     28]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-182.3684.100, 24 Jul 2018 18:13) 
+2018-11-17 01:36:13,808 [     28]   INFO -        #com.intellij.idea.Main - OS: Linux (4.19.2-1-manjaro, amd64) 
+2018-11-17 01:36:13,808 [     28]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1248-b8 (JetBrains s.r.o) 
+2018-11-17 01:36:13,808 [     28]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK 64-Bit Server VM) 
+2018-11-17 01:36:13,812 [     32]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms2048m -Xmx4096m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -javaagent:/home/op3ntrp/.config/JetbrainsCrack.jar -XX:ErrorFile=/home/op3ntrp/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/op3ntrp/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharm2018.2 -Djb.vmOptionsFile=/home/op3ntrp/.PyCharm2018.2/config/pycharm64.vmoptions -Didea.platform.prefix=Python 
+2018-11-17 01:36:13,812 [     32]   INFO -        #com.intellij.idea.Main - ext: /opt/JetBrains/pycharm-2018.2/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2018-11-17 01:36:13,812 [     32]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2018-11-17 01:36:13,830 [     50]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 18 ms 
+2018-11-17 01:36:14,475 [    695]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2018-11-17 01:36:14,475 [    695]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.25 
+2018-11-17 01:36:25,031 [  11251]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2018-11-17 01:36:25,035 [  11255]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2018-11-17 01:36:25,108 [  11328]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2018-11-17 01:36:25,252 [  11472]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2018-11-17 01:36:25,253 [  11473]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2018-11-17 01:36:25,570 [  11790]   INFO - .intellij.idea.IdeaApplication - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@34f37886[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1638e8c8 
+2018-11-17 01:36:25,617 [  11837]   INFO - .intellij.idea.IdeaApplication - WM detected: i3 
+2018-11-17 01:36:26,456 [  12676]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2018-11-17 01:36:26,459 [  12679]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2018-11-17 01:36:26,483 [  12703]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2018-11-17 01:36:26,545 [  12765]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2018-11-17 01:36:26,545 [  12765]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2018-11-17 01:36:26,689 [  12909]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 811 ms 
+2018-11-17 01:36:26,689 [  12909]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (182.3684.100), CSS Support (182.3684.100), CVS Integration (11), CoffeeScript (182.3684.100), Concurrency Visualiser (0.1), Database Tools and SQL (182.3684.100), Django Database Support Integration (1.0), Docker integration (182.3684.100), EditorConfig (182.3684.100), File Watchers (182.3684.100), GNU GetText files support (*.po) (182.3684.100), Gherkin (999.999), Git Integration (8.1), GitHub (182.3684.100), HTML Tools (2.0), HTTP Client (182.3684.100), Haml (182.3684.100), IDE Settings Sync (182.3684.100), IDEA CORE (182.3684.100), IPython Notebook (0.1), Ini4Idea (182.3684.100), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Less support (182.3684.100), Markdown support (182.3684.100), Mercurial Integration (10.0), Perforce Integration (2.0), Properties Support (182.3684.100), Puppet Support (182.3684.100), Python BDD support for engines, based on Gherkin (cucumber, lettuce, behave) (0.1), Python Docker (VERSION), Python IntelliLang (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python Profiler (0.1), Python ReStructureText Integration (1.0), Python Remote Interpreter (VERSION), Python Terminal (VERSION), Python UML Diagrams (VERSION), Python pytest-bdd support (0.1), ReStructuredText Support (182.3684.100), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (182.3684.100), Settings Repository (182.3684.100), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (182.3684.100), UML Support (1.0), Vagrant (182.3684.100), YAML (182.3684.100), tslint (182.3684.100) 
+2018-11-17 01:36:26,689 [  12909]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: IdeaVim (0.49) 
+2018-11-17 01:36:27,171 [  13391]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2018-11-17 01:36:27,266 [  13486]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=4009 
+2018-11-17 01:36:27,326 [  13546]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/JetBrains/pycharm-2018.2/bin/fsnotifier64 
+2018-11-17 01:36:27,336 [  13556]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-11-17 01:36:27,488 [  13708]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2018-11-17 01:36:27,488 [  13708]   INFO - pi.util.registry.RegistryState -   ide.tooltip.initialDelay = 1194 
+2018-11-17 01:36:27,509 [  13729]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button 
+2018-11-17 01:36:27,541 [  13761]   INFO - tellij.openapi.util.IconLoader - replace '/nodes/newFolder.png' with 'AllIcons.Nodes.Folder' 
+2018-11-17 01:36:27,932 [  14152]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=18, fontScale=1.25; restored: fontSize=18, fontScale=1.25 
+2018-11-17 01:36:28,411 [  14631]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-11-17 01:36:28,430 [  14650]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-11-17 01:36:28,479 [  14699]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-11-17 01:36:28,587 [  14807]   INFO - j.ide.ui.OptionsTopHitProvider - 252 ms spent to cache options in application 
+2018-11-17 01:36:28,587 [  14807]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@179d3a1e 
+2018-11-17 01:36:28,649 [  14869]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:92, number of extensions:37 
+2018-11-17 01:36:28,654 [  14874]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:5 
+2018-11-17 01:36:28,699 [  14919]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:36, number of extensions:79 
+2018-11-17 01:36:28,701 [  14921]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:2 
+2018-11-17 01:36:28,988 [  15208]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.unittestLegacy.PythonUnitTestConfigurationProducer@7b241836 
+2018-11-17 01:36:28,988 [  15208]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.pytestLegacy.PyTestConfigurationProducer@4fb403fe 
+2018-11-17 01:36:28,989 [  15209]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.nosetestLegacy.PythonNoseTestConfigurationProducer@5836713a 
+2018-11-17 01:36:28,989 [  15209]   INFO - pi.util.registry.RegistryValue - Registry value 'ide.ssh.one.time.password' has changed to 'true" 
+2018-11-17 01:36:29,129 [  15349]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/op3ntrp/.PyCharm2018.2/system/index/.persistent/prebuilt/Python/id-index.input 
+2018-11-17 01:36:29,276 [  15496]   INFO - plication.impl.ApplicationImpl - 84 application components initialized in 3402ms 
+2018-11-17 01:36:29,279 [  15499]   INFO - .intellij.idea.IdeaApplication - App initialization took 16280 ms 
+2018-11-17 01:36:29,699 [  15919]   INFO - pl$FileIndexDataInitialization - Initialization done:1044 
+2018-11-17 01:36:29,765 [  15985]   INFO - exImpl$StubIndexInitialization - Initialization done:65 
+2018-11-17 01:36:30,091 [  16311]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2018-11-17 01:36:30,094 [  16314]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=18, fontScale=1.5; restored: fontSize=18, fontScale=1.25 
+2018-11-17 01:36:30,578 [  16798]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@40c1ff6d 
+2018-11-17 01:36:30,896 [  17116]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@48447a1e 
+2018-11-17 01:36:31,197 [  17417]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@7c8f285c 
+2018-11-17 01:36:31,206 [  17426]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.actions.GotoClassPresentationUpdater@3ec5c4fa 
+2018-11-17 01:36:31,443 [  17663]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2018-11-17 01:36:32,100 [  18320]   INFO - j.ide.ui.OptionsTopHitProvider - 618 ms spent on EDT to cache options in application 
+2018-11-17 01:37:00,074 [  46294]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 149 ms 
+2018-11-17 01:37:01,312 [  47532]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2018-11-17 01:37:06,545 [  52765]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2018-11-17 01:37:06,546 [  52766]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2018-11-17 01:37:11,239 [  57459]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2018-11-17 01:37:52,761 [  98981]   INFO - ellij.project.impl.ProjectImpl - 111 project components initialized in 432 ms 
+2018-11-17 01:37:52,762 [  98982]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2018-11-17 01:37:53,001 [  99221]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-11-17 01:37:53,742 [  99962]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2018-11-17 01:37:54,150 [ 100370]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.grunt.GruntfileManager 
+2018-11-17 01:37:54,151 [ 100371]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.gulp.GulpfileManager 
+2018-11-17 01:37:54,152 [ 100372]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.npm.PackageJsonFileManager 
+2018-11-17 01:37:54,154 [ 100374]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 70ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:37:54,959 [ 101179]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2018-11-17 01:37:56,338 [ 102558]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py pyvenv --system-site-packages /home/op3ntrp/PycharmProjects/Snoopy/venv 
+2018-11-17 01:37:56,428 [ 102648]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:37:57,155 [ 103375]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/activate';'/opt/JetBrains/pycharm-2018.2/bin/printenv.py' '/tmp/intellij-shell-env.tmp' 
+2018-11-17 01:37:57,200 [ 103420]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 37 ms 
+2018-11-17 01:37:57,201 [ 103421]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python37.zip 
+2018-11-17 01:37:57,202 [ 103422]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python)): /home/op3ntrp/.PyCharm2018.2/system/python_stubs/-544971022 
+2018-11-17 01:37:57,203 [ 103423]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python)): /opt/JetBrains/pycharm-2018.2/helpers/python-skeletons 
+2018-11-17 01:37:57,220 [ 103440]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-11-17 01:37:57,228 [ 103448]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-11-17 01:37:57,231 [ 103451]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-11-17 01:37:57,258 [ 103478]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (43 vars) 
+2018-11-17 01:37:57,330 [ 103550]   INFO - tartup.impl.StartupManagerImpl - /home/op3ntrp/PycharmProjects/Snoopy/.idea case-sensitivity: expected=true actual=true 
+2018-11-17 01:37:57,363 [ 103583]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-11-17 01:37:57,792 [ 104012]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11276 to update, calculated in 6ms 
+2018-11-17 01:37:58,022 [ 104242]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python) 
+2018-11-17 01:37:58,025 [ 104245]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:37:58,043 [ 104263]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.grunt.GruntService 
+2018-11-17 01:37:58,044 [ 104264]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.gulp.GulpService 
+2018-11-17 01:37:58,045 [ 104265]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService 
+2018-11-17 01:37:58,062 [ 104282]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6004 ms 
+2018-11-17 01:37:58,978 [ 105198]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 937 ms 
+2018-11-17 01:37:58,982 [ 105202]   INFO - tPregeneratedSkeletonsProvider - Home path is /opt/JetBrains/pycharm-2018.2 
+2018-11-17 01:38:00,317 [ 106537]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 1304 ms 
+2018-11-17 01:38:00,325 [ 106545]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Levenshtein._levenshtein 
+2018-11-17 01:38:00,484 [ 106704]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KAuth 
+2018-11-17 01:38:00,675 [ 106895]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KCodecs 
+2018-11-17 01:38:00,811 [ 107031]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KCompletion 
+2018-11-17 01:38:01,008 [ 107228]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KConfigCore 
+2018-11-17 01:38:01,163 [ 107383]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KConfigGui 
+2018-11-17 01:38:01,345 [ 107565]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KConfigWidgets 
+2018-11-17 01:38:01,546 [ 107766]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KCoreAddons 
+2018-11-17 01:38:01,719 [ 107939]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KDBusAddons 
+2018-11-17 01:38:01,873 [ 108093]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KGuiAddons 
+2018-11-17 01:38:02,025 [ 108245]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KI18n 
+2018-11-17 01:38:02,170 [ 108390]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KItemModels 
+2018-11-17 01:38:02,333 [ 108553]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KItemViews 
+2018-11-17 01:38:02,513 [ 108733]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KJobWidgets 
+2018-11-17 01:38:02,697 [ 108917]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKF5.KWidgetsAddons 
+2018-11-17 01:38:03,021 [ 109241]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyOpenColorIO 
+2018-11-17 01:38:03,405 [ 109625]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.Qt 
+2018-11-17 01:38:03,942 [ 110162]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtBluetooth 
+2018-11-17 01:38:04,080 [ 110300]   INFO - .skeletons.PySkeletonGenerator - Skeleton for PyQt5.QtBluetooth failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'PyQt5.QtBluetooth' while nothing yet: libQt5Bluetooth.so.5: cannot open shared object file: No such file or directory
+-- 
+2018-11-17 01:38:04,081 [ 110301]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtCore 
+2018-11-17 01:38:04,203 [ 110423]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:38:04,960 [ 111180]   INFO - gratedToolsProjectConfigurator - Test runner 'Twisted Trial' was detected by project configurator 
+2018-11-17 01:38:06,315 [ 112535]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 8523ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:38:06,496 [ 112716]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 8 roots in 1 SDKs took 180ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:38:06,629 [ 112849]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:38:08,077 [ 114297]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1447ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:38:08,085 [ 114305]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 16859 files to update 
+2018-11-17 01:38:08,198 [ 114418]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/op3ntrp/.PyCharm2018.2/system/index/.persistent/prebuilt/Python/sdk-stubs.input 
+2018-11-17 01:38:11,681 [ 117901]   WARN - ij.images.util.ImageInfoReader - counter2.gif 
+javax.imageio.IIOException: Unexpected block type 0!
+	at com.sun.imageio.plugins.gif.GIFImageReader.readMetadata(GIFImageReader.java:785)
+	at com.sun.imageio.plugins.gif.GIFImageReader.getWidth(GIFImageReader.java:185)
+	at org.intellij.images.util.ImageInfoReader.a(ImageInfoReader.java:79)
+	at org.intellij.images.util.ImageInfoReader.getInfo(ImageInfoReader.java:59)
+	at org.intellij.images.index.ImageInfoIndex$2.computeValue(ImageInfoIndex.java:59)
+	at org.intellij.images.index.ImageInfoIndex$2.computeValue(ImageInfoIndex.java:56)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:43)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:30)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInput(MapReduceIndex.java:273)
+	at com.intellij.util.indexing.VfsAwareMapReduceIndex.calculateUpdateData(VfsAwareMapReduceIndex.java:97)
+	at com.intellij.util.indexing.impl.MapReduceIndex.update(MapReduceIndex.java:213)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1668)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1596)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyIn(FileTypeManagerImpl.java:524)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1555)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1543)
+	at com.intellij.util.indexing.UnindexedFilesUpdater.a(UnindexedFilesUpdater.java:110)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.a(CacheUpdateRunner.java:230)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1151)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.a(CacheUpdateRunner.java:246)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.run(CacheUpdateRunner.java:243)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:310)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-17 01:38:11,883 [ 118103]   WARN - ij.images.util.ImageInfoReader - blue_line.gif 
+javax.imageio.IIOException: Unexpected block type 0!
+	at com.sun.imageio.plugins.gif.GIFImageReader.readMetadata(GIFImageReader.java:785)
+	at com.sun.imageio.plugins.gif.GIFImageReader.getWidth(GIFImageReader.java:185)
+	at org.intellij.images.util.ImageInfoReader.a(ImageInfoReader.java:79)
+	at org.intellij.images.util.ImageInfoReader.getInfo(ImageInfoReader.java:59)
+	at org.intellij.images.index.ImageInfoIndex$2.computeValue(ImageInfoIndex.java:59)
+	at org.intellij.images.index.ImageInfoIndex$2.computeValue(ImageInfoIndex.java:56)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:43)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:30)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInput(MapReduceIndex.java:273)
+	at com.intellij.util.indexing.VfsAwareMapReduceIndex.calculateUpdateData(VfsAwareMapReduceIndex.java:97)
+	at com.intellij.util.indexing.impl.MapReduceIndex.update(MapReduceIndex.java:213)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1668)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1596)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyIn(FileTypeManagerImpl.java:524)
+	at com.intellij.util.indexing.FileBasedIndexImpl.a(FileBasedIndexImpl.java:1555)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1543)
+	at com.intellij.util.indexing.UnindexedFilesUpdater.a(UnindexedFilesUpdater.java:110)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.a(CacheUpdateRunner.java:230)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1151)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.a(CacheUpdateRunner.java:246)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.project.CacheUpdateRunner$MyRunnable.run(CacheUpdateRunner.java:243)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:310)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-17 01:38:14,649 [ 120869]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtDBus 
+2018-11-17 01:38:15,388 [ 121608]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtDesigner 
+2018-11-17 01:38:16,176 [ 122396]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtGui 
+2018-11-17 01:38:19,853 [ 126073]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:38:19,853 [ 126073]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:38:31,347 [ 137567]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtHelp 
+2018-11-17 01:38:31,940 [ 138160]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtLocation 
+2018-11-17 01:38:33,622 [ 139842]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtMultimedia 
+2018-11-17 01:38:36,365 [ 142585]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtMultimediaWidgets 
+2018-11-17 01:38:36,701 [ 142921]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtNetwork 
+2018-11-17 01:38:38,673 [ 144893]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:38:38,674 [ 144894]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:38:39,794 [ 146014]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtNetworkAuth 
+2018-11-17 01:38:40,547 [ 146767]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtNfc 
+2018-11-17 01:38:40,747 [ 146967]   INFO - .skeletons.PySkeletonGenerator - Skeleton for PyQt5.QtNfc failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'PyQt5.QtNfc' while nothing yet: libQt5Nfc.so.5: cannot open shared object file: No such file or directory
+-- 
+2018-11-17 01:38:40,753 [ 146973]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtOpenGL 
+2018-11-17 01:38:41,421 [ 147641]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtPositioning 
+2018-11-17 01:38:42,233 [ 148453]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtPrintSupport 
+2018-11-17 01:38:42,952 [ 149172]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtQml 
+2018-11-17 01:38:43,959 [ 150179]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtQuick 
+2018-11-17 01:38:45,635 [ 151855]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtQuickWidgets 
+2018-11-17 01:38:45,947 [ 152167]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtSensors 
+2018-11-17 01:38:46,601 [ 152821]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtSerialPort 
+2018-11-17 01:38:46,921 [ 153141]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtSql 
+2018-11-17 01:38:48,005 [ 154225]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtSvg 
+2018-11-17 01:38:48,350 [ 154570]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtTest 
+2018-11-17 01:38:48,871 [ 155091]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebChannel 
+2018-11-17 01:38:49,091 [ 155311]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebEngine 
+2018-11-17 01:38:49,498 [ 155718]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebEngineCore 
+2018-11-17 01:38:49,816 [ 156036]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebEngineWidgets 
+2018-11-17 01:38:50,914 [ 157134]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebKit 
+2018-11-17 01:38:51,609 [ 157829]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebKitWidgets 
+2018-11-17 01:38:52,697 [ 158917]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWebSockets 
+2018-11-17 01:38:53,119 [ 159339]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtWidgets 
+2018-11-17 01:39:12,243 [ 178463]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtX11Extras 
+2018-11-17 01:39:12,479 [ 178699]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtXml 
+2018-11-17 01:39:13,660 [ 179880]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.QtXmlPatterns 
+2018-11-17 01:39:14,142 [ 180362]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5._QOpenGLFunctions_2_0 
+2018-11-17 01:39:14,338 [ 180558]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5._QOpenGLFunctions_2_1 
+2018-11-17 01:39:14,538 [ 180758]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5._QOpenGLFunctions_4_1_Core 
+2018-11-17 01:39:14,722 [ 180942]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.pylupdate 
+2018-11-17 01:39:14,911 [ 181131]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.pyrcc 
+2018-11-17 01:39:15,116 [ 181336]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt5.sip 
+2018-11-17 01:39:15,323 [ 181543]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DAnimation 
+2018-11-17 01:39:15,608 [ 181828]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DCore 
+2018-11-17 01:39:15,843 [ 182063]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DExtras 
+2018-11-17 01:39:16,121 [ 182341]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DInput 
+2018-11-17 01:39:16,383 [ 182603]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DLogic 
+2018-11-17 01:39:16,623 [ 182843]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.Qt3DRender 
+2018-11-17 01:39:16,854 [ 183074]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtCharts 
+2018-11-17 01:39:17,154 [ 183374]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtConcurrent 
+2018-11-17 01:39:17,354 [ 183574]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtCore 
+2018-11-17 01:39:17,985 [ 184205]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtDataVisualization 
+2018-11-17 01:39:18,181 [ 184401]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtGui 
+2018-11-17 01:39:18,752 [ 184972]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtHelp 
+2018-11-17 01:39:19,026 [ 185246]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtLocation 
+2018-11-17 01:39:19,236 [ 185456]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtMultimedia 
+2018-11-17 01:39:19,549 [ 185769]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtMultimediaWidgets 
+2018-11-17 01:39:19,785 [ 186005]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtNetwork 
+2018-11-17 01:39:20,043 [ 186263]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtOpenGL 
+2018-11-17 01:39:20,256 [ 186476]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtPositioning 
+2018-11-17 01:39:20,424 [ 186644]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtPrintSupport 
+2018-11-17 01:39:20,639 [ 186859]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtQml 
+2018-11-17 01:39:20,854 [ 187074]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtQuick 
+2018-11-17 01:39:21,055 [ 187275]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtQuickWidgets 
+2018-11-17 01:39:21,301 [ 187521]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtScript 
+2018-11-17 01:39:21,531 [ 187751]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtScriptTools 
+2018-11-17 01:39:21,818 [ 188038]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtScxml 
+2018-11-17 01:39:21,943 [ 188163]   INFO - ellij.vfs.persistent.FSRecords - Contents:16384 of 218168599, reuses:3972 of 33635537 for 1405 
+2018-11-17 01:39:22,036 [ 188256]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtSensors 
+2018-11-17 01:39:22,240 [ 188460]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtSql 
+2018-11-17 01:39:22,443 [ 188663]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtSvg 
+2018-11-17 01:39:22,621 [ 188841]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtTest 
+2018-11-17 01:39:22,828 [ 189048]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtTextToSpeech 
+2018-11-17 01:39:23,030 [ 189250]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtUiTools 
+2018-11-17 01:39:23,207 [ 189427]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWebChannel 
+2018-11-17 01:39:23,340 [ 189560]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWebEngine 
+2018-11-17 01:39:23,515 [ 189735]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWebEngineCore 
+2018-11-17 01:39:23,715 [ 189935]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWebEngineWidgets 
+2018-11-17 01:39:23,987 [ 190207]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWebSockets 
+2018-11-17 01:39:24,140 [ 190360]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtWidgets 
+2018-11-17 01:39:24,710 [ 190930]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtX11Extras 
+2018-11-17 01:39:24,862 [ 191082]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtXml 
+2018-11-17 01:39:25,030 [ 191250]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PySide2.QtXmlPatterns 
+2018-11-17 01:39:25,177 [ 191397]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _asyncio 
+2018-11-17 01:39:25,370 [ 191590]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bisect 
+2018-11-17 01:39:25,510 [ 191730]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _blake2 
+2018-11-17 01:39:25,621 [ 191841]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _blueman 
+2018-11-17 01:39:25,630 [ 191850]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 77545ms; general responsiveness: ok; EDT responsiveness: 1/78 sluggish 
+2018-11-17 01:39:25,632 [ 191852]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 414 to update, calculated in 1ms 
+2018-11-17 01:39:25,784 [ 192004]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bz2 
+2018-11-17 01:39:25,972 [ 192192]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _cffi_backend 
+2018-11-17 01:39:26,192 [ 192412]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2018-11-17 01:39:26,231 [ 192451]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 599ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:39:26,336 [ 192556]   INFO - j.ide.ui.OptionsTopHitProvider - 97 ms spent to cache options in project 
+2018-11-17 01:39:26,340 [ 192560]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2018-11-17 01:39:26,358 [ 192578]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2018-11-17 01:39:26,509 [ 192729]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2018-11-17 01:39:26,636 [ 192856]   INFO - j.ide.ui.OptionsTopHitProvider - 125 ms spent on EDT to cache options in project 
+2018-11-17 01:39:26,670 [ 192890]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2018-11-17 01:39:26,787 [ 193007]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2018-11-17 01:39:26,900 [ 193120]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2018-11-17 01:39:27,007 [ 193227]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _contextvars 
+2018-11-17 01:39:27,117 [ 193337]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _crypt 
+2018-11-17 01:39:27,225 [ 193445]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2018-11-17 01:39:27,347 [ 193567]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2018-11-17 01:39:27,472 [ 193692]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2018-11-17 01:39:27,578 [ 193798]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2018-11-17 01:39:27,733 [ 193953]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2018-11-17 01:39:27,879 [ 194099]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _datetime 
+2018-11-17 01:39:28,036 [ 194256]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbm 
+2018-11-17 01:39:28,144 [ 194364]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_bindings 
+2018-11-17 01:39:28,447 [ 194667]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_glib_bindings 
+2018-11-17 01:39:28,563 [ 194783]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _decimal 
+2018-11-17 01:39:28,672 [ 194892]   INFO - .skeletons.PySkeletonGenerator - Skeleton for _decimal failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process '_decimal' while nothing yet: libmpdec.so.2: cannot open shared object file: No such file or directory
+-- 
+2018-11-17 01:39:28,673 [ 194893]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _elementtree 
+2018-11-17 01:39:28,794 [ 195014]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _gdbm 
+2018-11-17 01:39:28,902 [ 195122]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2018-11-17 01:39:29,022 [ 195242]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _heapq 
+2018-11-17 01:39:29,137 [ 195357]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2018-11-17 01:39:29,251 [ 195471]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2018-11-17 01:39:29,358 [ 195578]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/activate';'/opt/JetBrains/pycharm-2018.2/bin/printenv.py' '/tmp/intellij-shell-env.tmp' 
+2018-11-17 01:39:29,371 [ 195591]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lzma 
+2018-11-17 01:39:29,389 [ 195609]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 26 ms 
+2018-11-17 01:39:29,389 [ 195609]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python37.zip 
+2018-11-17 01:39:29,390 [ 195610]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python)): /home/op3ntrp/.PyCharm2018.2/system/python_stubs/-544971022 
+2018-11-17 01:39:29,390 [ 195610]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python)): /opt/JetBrains/pycharm-2018.2/helpers/python-skeletons 
+2018-11-17 01:39:29,460 [ 195680]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (43 vars) 
+2018-11-17 01:39:29,495 [ 195715]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _md5 
+2018-11-17 01:39:29,602 [ 195822]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2018-11-17 01:39:29,710 [ 195930]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2018-11-17 01:39:29,818 [ 196038]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _opcode 
+2018-11-17 01:39:29,923 [ 196143]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _pickle 
+2018-11-17 01:39:30,048 [ 196268]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _posixsubprocess 
+2018-11-17 01:39:30,159 [ 196379]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _queue 
+2018-11-17 01:39:30,267 [ 196487]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _random 
+2018-11-17 01:39:30,380 [ 196600]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _regex 
+2018-11-17 01:39:30,485 [ 196705]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ruamel_yaml 
+2018-11-17 01:39:30,637 [ 196857]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sha1 
+2018-11-17 01:39:30,745 [ 196965]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sha256 
+2018-11-17 01:39:30,864 [ 197084]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sha3 
+2018-11-17 01:39:30,986 [ 197206]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sha512 
+2018-11-17 01:39:31,094 [ 197314]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _snack 
+2018-11-17 01:39:31,213 [ 197433]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _socket 
+2018-11-17 01:39:31,418 [ 197638]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2018-11-17 01:39:31,593 [ 197813]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2018-11-17 01:39:31,770 [ 197990]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _struct 
+2018-11-17 01:39:31,880 [ 198100]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testbuffer 
+2018-11-17 01:39:31,990 [ 198210]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2018-11-17 01:39:32,116 [ 198336]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testimportmultiple 
+2018-11-17 01:39:32,222 [ 198442]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testmultiphase 
+2018-11-17 01:39:32,332 [ 198552]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _tkinter 
+2018-11-17 01:39:32,462 [ 198682]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _uuid 
+2018-11-17 01:39:32,569 [ 198789]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _volume_key 
+2018-11-17 01:39:32,677 [ 198897]   INFO - .skeletons.PySkeletonGenerator - Skeleton for _volume_key failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process '_volume_key' while nothing yet: /usr/lib/python3.7/site-packages/_volume_key.so: undefined symbol: PyString_FromStringAndSize
+-- 
+2018-11-17 01:39:32,678 [ 198898]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _xxtestfuzz 
+2018-11-17 01:39:32,784 [ 199004]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _yaml 
+2018-11-17 01:39:32,934 [ 199154]   INFO - .skeletons.PySkeletonRefresher - Skeleton for array 
+2018-11-17 01:39:33,059 [ 199279]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2018-11-17 01:39:33,172 [ 199392]   INFO - .skeletons.PySkeletonRefresher - Skeleton for binascii 
+2018-11-17 01:39:33,280 [ 199500]   INFO - .skeletons.PySkeletonRefresher - Skeleton for brlapi 
+2018-11-17 01:39:33,414 [ 199634]   INFO - .skeletons.PySkeletonRefresher - Skeleton for brotli._brotli 
+2018-11-17 01:39:33,526 [ 199746]   INFO - .skeletons.PySkeletonRefresher - Skeleton for btrfsutil 
+2018-11-17 01:39:33,669 [ 199889]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cairo._cairo 
+2018-11-17 01:39:33,813 [ 200033]   INFO - .skeletons.PySkeletonRefresher - Skeleton for capstone.lib.libcapstone 
+2018-11-17 01:39:34,243 [ 200463]   INFO - .skeletons.PySkeletonGenerator - Skeleton for capstone.lib.libcapstone failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'capstone.lib.libcapstone' while nothing yet: dynamic module does not define module export function (PyInit_libcapstone)
+-- 
+2018-11-17 01:39:34,243 [ 200463]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cmath 
+2018-11-17 01:39:34,355 [ 200575]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._constant_time 
+2018-11-17 01:39:34,463 [ 200683]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._openssl 
+2018-11-17 01:39:34,573 [ 200793]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._padding 
+2018-11-17 01:39:34,679 [ 200899]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cups 
+2018-11-17 01:39:35,078 [ 201298]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cupsext 
+2018-11-17 01:39:35,213 [ 201433]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cv2 
+2018-11-17 01:39:42,679 [ 208899]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbus.mainloop.pyqt5 
+2018-11-17 01:39:42,806 [ 209026]   INFO - .skeletons.PySkeletonRefresher - Skeleton for fcntl 
+2018-11-17 01:39:42,918 [ 209138]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi 
+2018-11-17 01:39:43,057 [ 209277]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi_cairo 
+2018-11-17 01:39:43,172 [ 209392]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi.overrides._gi_gst 
+2018-11-17 01:39:43,292 [ 209512]   INFO - .skeletons.PySkeletonGenerator - Skeleton for gi.overrides._gi_gst had some minor errors on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+/usr/lib/python3.7/importlib/_bootstrap.py:219: Warning: g_type_set_qdata: assertion 'node != NULL' failed
+  return f(*args, **kwds)
+-- 
+2018-11-17 01:39:43,292 [ 209512]   INFO - .skeletons.PySkeletonRefresher - Skeleton for glib._glib 
+2018-11-17 01:39:43,436 [ 209656]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gobject._gobject 
+2018-11-17 01:39:43,567 [ 209787]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gpg._gpgme 
+2018-11-17 01:39:45,223 [ 211443]   INFO - .skeletons.PySkeletonRefresher - Skeleton for greenlet 
+2018-11-17 01:39:45,339 [ 211559]   INFO - .skeletons.PySkeletonRefresher - Skeleton for grp 
+2018-11-17 01:39:45,448 [ 211668]   INFO - .skeletons.PySkeletonRefresher - Skeleton for hpmudext 
+2018-11-17 01:39:45,555 [ 211775]   INFO - .skeletons.PySkeletonRefresher - Skeleton for imobiledevice 
+2018-11-17 01:39:45,663 [ 211883]   INFO - .skeletons.PySkeletonGenerator - Skeleton for imobiledevice failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'imobiledevice' while nothing yet: /usr/lib/python3.7/site-packages/imobiledevice.so: undefined symbol: PyString_AsString
+-- 
+2018-11-17 01:39:45,663 [ 211883]   INFO - .skeletons.PySkeletonRefresher - Skeleton for keyutils._keyutils 
+2018-11-17 01:39:45,772 [ 211992]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lazy_object_proxy.cext 
+2018-11-17 01:39:45,895 [ 212115]   INFO - .skeletons.PySkeletonRefresher - Skeleton for libmount.pylibmount 
+2018-11-17 01:39:46,109 [ 212329]   INFO - .skeletons.PySkeletonRefresher - Skeleton for libxml2mod 
+2018-11-17 01:39:46,239 [ 212459]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml._elementpath 
+2018-11-17 01:39:46,359 [ 212579]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.builder 
+2018-11-17 01:39:46,482 [ 212702]   INFO - .skeletons.PySkeletonGenerator - Skeleton for lxml.builder failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'lxml.builder' while nothing yet: object of type 'functools.partial' has no len()
+-- 
+2018-11-17 01:39:46,483 [ 212703]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.etree 
+2018-11-17 01:39:47,250 [ 213470]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.html.clean 
+2018-11-17 01:39:47,455 [ 213675]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.html.diff 
+2018-11-17 01:39:47,671 [ 213891]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.objectify 
+2018-11-17 01:39:47,890 [ 214110]   INFO - .skeletons.PySkeletonRefresher - Skeleton for markupsafe._speedups 
+2018-11-17 01:39:48,002 [ 214222]   INFO - .skeletons.PySkeletonRefresher - Skeleton for math 
+2018-11-17 01:39:48,125 [ 214345]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2018-11-17 01:39:48,239 [ 214459]   INFO - .skeletons.PySkeletonRefresher - Skeleton for msgpack._packer 
+2018-11-17 01:39:48,368 [ 214588]   INFO - .skeletons.PySkeletonRefresher - Skeleton for msgpack._unpacker 
+2018-11-17 01:39:48,511 [ 214731]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2018-11-17 01:39:48,626 [ 214846]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._dummy 
+2018-11-17 01:39:48,846 [ 215066]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._multiarray_tests 
+2018-11-17 01:39:49,070 [ 215290]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._operand_flag_tests 
+2018-11-17 01:39:49,290 [ 215510]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._rational_tests 
+2018-11-17 01:39:49,537 [ 215757]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._struct_ufunc_tests 
+2018-11-17 01:39:49,759 [ 215979]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._umath_tests 
+2018-11-17 01:39:49,994 [ 216214]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.multiarray 
+2018-11-17 01:39:50,561 [ 216781]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.umath 
+2018-11-17 01:39:51,026 [ 217246]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.fft.fftpack_lite 
+2018-11-17 01:39:51,245 [ 217465]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.linalg._umath_linalg 
+2018-11-17 01:39:51,551 [ 217771]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.linalg.lapack_lite 
+2018-11-17 01:39:51,780 [ 218000]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.random.mtrand 
+2018-11-17 01:39:52,262 [ 218482]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2018-11-17 01:39:52,370 [ 218590]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2018-11-17 01:39:52,483 [ 218703]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pcardext 
+2018-11-17 01:39:52,588 [ 218808]   INFO - .skeletons.PySkeletonGenerator - Skeleton for pcardext failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'pcardext' while nothing yet: /usr/lib/python3.7/site-packages/pcardext.so: undefined symbol: PyInt_AS_LONG
+-- 
+2018-11-17 01:39:52,588 [ 218808]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pdftotext 
+2018-11-17 01:39:52,723 [ 218943]   INFO - .skeletons.PySkeletonRefresher - Skeleton for picard.util._astrcmp 
+2018-11-17 01:39:52,852 [ 219072]   INFO - .skeletons.PySkeletonRefresher - Skeleton for playhouse._speedups 
+2018-11-17 01:39:52,958 [ 219178]   INFO - .skeletons.PySkeletonRefresher - Skeleton for playhouse._sqlite_ext 
+2018-11-17 01:39:53,101 [ 219321]   INFO - .skeletons.PySkeletonRefresher - Skeleton for playhouse._sqlite_udf 
+2018-11-17 01:39:53,217 [ 219437]   INFO - .skeletons.PySkeletonRefresher - Skeleton for plist 
+2018-11-17 01:39:53,336 [ 219556]   INFO - .skeletons.PySkeletonRefresher - Skeleton for psutil._psutil_linux 
+2018-11-17 01:39:53,478 [ 219698]   INFO - .skeletons.PySkeletonRefresher - Skeleton for psutil._psutil_posix 
+2018-11-17 01:39:53,603 [ 219823]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyalpm 
+2018-11-17 01:39:53,727 [ 219947]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pycurl 
+2018-11-17 01:39:53,890 [ 220110]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyexpat 
+2018-11-17 01:39:54,001 [ 220221]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyodbc 
+2018-11-17 01:39:54,340 [ 220560]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyopenvdb 
+2018-11-17 01:39:54,466 [ 220686]   INFO - .skeletons.PySkeletonGenerator - Skeleton for pyopenvdb failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'pyopenvdb' while nothing yet: /usr/lib/python3.7/pyopenvdb.so: undefined symbol: _ZTIN5boost6python15instance_holderE
+-- 
+2018-11-17 01:39:54,466 [ 220686]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2018-11-17 01:39:54,608 [ 220828]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2018-11-17 01:39:54,721 [ 220941]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpm 
+2018-11-17 01:39:54,981 [ 221201]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpmb 
+2018-11-17 01:39:55,097 [ 221317]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpms 
+2018-11-17 01:39:55,212 [ 221432]   INFO - .skeletons.PySkeletonRefresher - Skeleton for scanext 
+2018-11-17 01:39:55,330 [ 221550]   INFO - .skeletons.PySkeletonRefresher - Skeleton for select 
+2018-11-17 01:39:55,455 [ 221675]   INFO - .skeletons.PySkeletonRefresher - Skeleton for shiboken2 
+2018-11-17 01:39:55,565 [ 221785]   INFO - .skeletons.PySkeletonRefresher - Skeleton for simplejson._speedups 
+2018-11-17 01:39:55,696 [ 221916]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sip 
+2018-11-17 01:39:55,806 [ 222026]   INFO - .skeletons.PySkeletonRefresher - Skeleton for spwd 
+2018-11-17 01:39:55,916 [ 222136]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sqlalchemy.cprocessors 
+2018-11-17 01:39:56,146 [ 222366]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sqlalchemy.cresultproxy 
+2018-11-17 01:39:56,341 [ 222561]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sqlalchemy.cutils 
+2018-11-17 01:39:56,534 [ 222754]   INFO - .skeletons.PySkeletonRefresher - Skeleton for syslog 
+2018-11-17 01:39:56,641 [ 222861]   INFO - .skeletons.PySkeletonRefresher - Skeleton for team._capi 
+2018-11-17 01:39:56,747 [ 222967]   INFO - .skeletons.PySkeletonGenerator - Skeleton for team._capi failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'team._capi' while nothing yet: No module named 'core'
+-- 
+2018-11-17 01:39:56,747 [ 222967]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2018-11-17 01:39:56,864 [ 223084]   INFO - .skeletons.PySkeletonRefresher - Skeleton for tornado.speedups 
+2018-11-17 01:39:56,971 [ 223191]   INFO - .skeletons.PySkeletonRefresher - Skeleton for twisted.test.raiser 
+2018-11-17 01:39:57,087 [ 223307]   INFO - .skeletons.PySkeletonRefresher - Skeleton for unicodedata 
+2018-11-17 01:39:57,200 [ 223420]   INFO - .skeletons.PySkeletonRefresher - Skeleton for urwid.str_util 
+2018-11-17 01:39:57,429 [ 223649]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vdeplug_python 
+2018-11-17 01:39:57,537 [ 223757]   INFO - .skeletons.PySkeletonGenerator - Skeleton for vdeplug_python failed on /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python. stderr: --
+Failed to process 'vdeplug_python' while nothing yet: /usr/lib/python3.7/site-packages/vdeplug_python.so: undefined symbol: Py_InitModule
+-- 
+2018-11-17 01:39:57,537 [ 223757]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.analysis 
+2018-11-17 01:39:58,183 [ 224403]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.blockwise 
+2018-11-17 01:39:58,578 [ 224798]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.colors 
+2018-11-17 01:39:59,055 [ 225275]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.filters 
+2018-11-17 01:39:59,891 [ 226111]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.fourier 
+2018-11-17 01:40:00,207 [ 226427]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.geometry 
+2018-11-17 01:40:00,512 [ 226732]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.graphs 
+2018-11-17 01:40:04,561 [ 230781]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.histogram 
+2018-11-17 01:40:04,877 [ 231097]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.impex 
+2018-11-17 01:40:05,197 [ 231417]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.learning 
+2018-11-17 01:40:05,654 [ 231874]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.noise 
+2018-11-17 01:40:05,994 [ 232214]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.optimization 
+2018-11-17 01:40:06,306 [ 232526]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.sampling 
+2018-11-17 01:40:08,382 [ 234602]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.utilities 
+2018-11-17 01:40:08,737 [ 234957]   INFO - .skeletons.PySkeletonRefresher - Skeleton for vigra.vigranumpycore 
+2018-11-17 01:40:09,127 [ 235347]   INFO - .skeletons.PySkeletonRefresher - Skeleton for wrapt._wrappers 
+2018-11-17 01:40:09,252 [ 235472]   INFO - .skeletons.PySkeletonRefresher - Skeleton for xxlimited 
+2018-11-17 01:40:09,366 [ 235586]   INFO - .skeletons.PySkeletonRefresher - Skeleton for yara 
+2018-11-17 01:40:09,474 [ 235694]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zlib 
+2018-11-17 01:40:09,583 [ 235803]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython._device 
+2018-11-17 01:40:09,739 [ 235959]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython._poll 
+2018-11-17 01:40:09,900 [ 236120]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython._version 
+2018-11-17 01:40:10,068 [ 236288]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.constants 
+2018-11-17 01:40:10,217 [ 236437]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.context 
+2018-11-17 01:40:10,367 [ 236587]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.error 
+2018-11-17 01:40:10,566 [ 236786]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.message 
+2018-11-17 01:40:10,805 [ 237025]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.socket 
+2018-11-17 01:40:11,072 [ 237292]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.backend.cython.utils 
+2018-11-17 01:40:11,272 [ 237492]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zmq.devices.monitoredqueue 
+2018-11-17 01:40:11,449 [ 237669]   INFO - .skeletons.PySkeletonRefresher - Skeleton for zope.interface._zope_interface_coptimizations 
+2018-11-17 01:40:11,569 [ 237789]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 131250 ms 
+2018-11-17 01:40:11,628 [ 237848]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:40:11,628 [ 237848]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - Some skeletons failed to generate 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - 11 modules failed in 1 interpreter. <a href="#">Details...</a> 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - Failed modules 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - PyQt5.QtBluetooth 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - PyQt5.QtNfc 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - _decimal 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - _volume_key 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - capstone.lib.libcapstone 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - imobiledevice 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - lxml.builder 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - pcardext 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - pyopenvdb 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - team._capi 
+2018-11-17 01:40:11,636 [ 237856]   WARN - .skeletons.PySkeletonRefresher - vdeplug_python 
+2018-11-17 01:40:11,637 [ 237857]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python) 
+2018-11-17 01:40:11,637 [ 237857]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:40:11,746 [ 237966]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2408 to update, calculated in 102ms 
+2018-11-17 01:40:12,505 [ 238725]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python) 
+2018-11-17 01:40:12,505 [ 238725]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:40:12,977 [ 239197]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 470 ms 
+2018-11-17 01:40:12,978 [ 239198]   INFO - tPregeneratedSkeletonsProvider - Home path is /opt/JetBrains/pycharm-2018.2 
+2018-11-17 01:40:12,998 [ 239218]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 17 ms 
+2018-11-17 01:40:13,069 [ 239289]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:40:13,070 [ 239290]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:40:13,203 [ 239423]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.7 (venv) (/home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python) 
+2018-11-17 01:40:13,203 [ 239423]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:40:14,463 [ 240683]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 2717ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:40:14,464 [ 240684]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2018-11-17 01:40:14,515 [ 240735]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 51ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-11-17 01:42:14,204 [ 360424]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python 
+2018-11-17 01:42:14,205 [ 360425]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/op3ntrp/PycharmProjects/Snoopy/venv/bin/python /opt/JetBrains/pycharm-2018.2/helpers/packaging_tool.py list 
+2018-11-17 01:42:51,076 [ 397296]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-11-17 01:42:51,486 [ 397706]   INFO - m.maddyhome.idea.vim.VimPlugin - Sending statistics: https://plugins.jetbrains.com/plugins/list?pluginId=IdeaVIM&build=PY-182.3684.100&pluginVersion=0.49&os=Linux+4.19.2-1-manjaro&uuid=194297e2-3a8b-4ed5-9226-af53c62a9261 
+2018-11-17 01:43:45,472 [ 451692]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 25 ms 
+2018-11-17 02:13:31,176 [2237396]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-11-17 02:13:31,177 [2237397]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-11-17 02:13:31,178 [2237398]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-11-17 02:13:31,178 [2237398]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-11-17 02:13:31,178 [2237398]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-11-17 02:13:31,192 [2237412]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-11-17 02:13:31,194 [2237414]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-11-17 02:13:31,199 [2237419]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 6394 auto-detected files
+Elapsed time on auto-detect: 8740 ms 
+2018-11-17 02:13:31,217 [2237437]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-11-17 02:13:31,219 [2237439]  ERROR - ij.components.ComponentManager - null 
+java.lang.NullPointerException
+	at com.maddyhome.idea.vim.EventFacade.getTypedAction(EventFacade.java:125)
+	at com.maddyhome.idea.vim.EventFacade.restoreTypedActionHandler(EventFacade.java:69)
+	at com.maddyhome.idea.vim.VimPlugin.disposeComponent(VimPlugin.java:183)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.disposeComponents(ComponentManagerImpl.java:136)
+	at com.intellij.openapi.application.impl.ApplicationImpl.dispose(ApplicationImpl.java:490)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:48)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:44)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:138)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:182)
+	at com.intellij.openapi.util.objectTree.ObjectNode.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeAll(ObjectTree.java:151)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:129)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:125)
+	at com.intellij.openapi.application.impl.ApplicationImpl.k(ApplicationImpl.java:249)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1028)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:249)
+	at com.intellij.openapi.application.impl.ApplicationImpl.b(ApplicationImpl.java:790)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:766)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:755)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:751)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:718)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:713)
+	at com.intellij.openapi.wm.impl.IdeFrameImpl$3.windowClosing(IdeFrameImpl.java:275)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:722)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-11-17 02:13:31,220 [2237440]  ERROR - ij.components.ComponentManager - PyCharm 2018.2  Build #PY-182.3684.100 
+2018-11-17 02:13:31,220 [2237440]  ERROR - ij.components.ComponentManager - JDK: 1.8.0_152-release 
+2018-11-17 02:13:31,220 [2237440]  ERROR - ij.components.ComponentManager - VM: OpenJDK 64-Bit Server VM 
+2018-11-17 02:13:31,220 [2237440]  ERROR - ij.components.ComponentManager - Vendor: JetBrains s.r.o 
+2018-11-17 02:13:31,220 [2237440]  ERROR - ij.components.ComponentManager - OS: Linux 
+2018-11-17 02:13:31,220 [2237440]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-11-17 02:13:31,222 [2237442]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-11-17 02:13:31,223 [2237443]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-11-17 02:13:31,224 [2237444]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

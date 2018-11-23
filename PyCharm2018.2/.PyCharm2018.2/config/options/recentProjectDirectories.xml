@@ -2,11 +2,18 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/PycharmProjects/Snoopy" />
         <option value="$USER_HOME$/PycharmProjects/ios_exporter" />
         <option value="$USER_HOME$/PycharmProjects/Scraper" />
       </list>
     </option>
-    <option name="pid" value="771" />
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/PycharmProjects/Snoopy" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/PycharmProjects/Snoopy" />
+    <option name="pid" value="13023" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/PycharmProjects/Scraper">
@@ -17,6 +24,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1538759049707" />
               <option name="buildTimestamp" value="1532438202311" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/Snoopy">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3684.100" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542401011019" />
+              <option name="buildTimestamp" value="1532438188368" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

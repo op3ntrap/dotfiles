@@ -14,14 +14,16 @@
       <entry action="CloseProject" count="2" />
       <entry action="CodeCompletion" count="3" />
       <entry action="CollapseRegion" count="2" />
+      <entry action="CollapseSelection" count="2" />
       <entry action="CommentByLineComment" count="6" />
+      <entry action="ContextHelp" count="1" />
       <entry action="CopyElement" count="2" />
       <entry action="DialogCancelAction Escape" count="1" />
-      <entry action="DialogOkAction Enter" count="11" />
+      <entry action="DialogOkAction Enter" count="12" />
       <entry action="EditCustomVmOptions" count="1" />
-      <entry action="EditorBackSpace" count="236" />
-      <entry action="EditorChooseLookupItem" count="12" />
-      <entry action="EditorChooseLookupItemReplace" count="48" />
+      <entry action="EditorBackSpace" count="261" />
+      <entry action="EditorChooseLookupItem" count="13" />
+      <entry action="EditorChooseLookupItemReplace" count="51" />
       <entry action="EditorCodeBlockEndWithSelection" count="1" />
       <entry action="EditorCompleteStatement" count="6" />
       <entry action="EditorCut" count="1" />
@@ -33,11 +35,13 @@
       <entry action="EditorPaste" count="6" />
       <entry action="EditorPreviousWord" count="1" />
       <entry action="EditorRight" count="8" />
+      <entry action="EditorRightWithSelection" count="10" />
       <entry action="EditorSelectWord" count="1" />
-      <entry action="EditorTab" count="28" />
+      <entry action="EditorTab" count="30" />
       <entry action="EditorUnindentSelection" count="1" />
       <entry action="EditorUp" count="15" />
-      <entry action="FindNext" count="5" />
+      <entry action="FindNext" count="6" />
+      <entry action="FindPrevious" count="1" />
       <entry action="Git.Commit.And.Push.Executor" count="3" />
       <entry action="Git.Configure.Remotes" count="4" />
       <entry action="GotoClass" count="3" />
@@ -47,7 +51,7 @@
       <entry action="InvalidateCaches" count="1" />
       <entry action="NewDir" count="1" />
       <entry action="NewElement" count="1" />
-      <entry action="NewPythonFile" count="2" />
+      <entry action="NewPythonFile" count="3" />
       <entry action="NewScratchFile" count="1" />
       <entry action="PasteMultiple" count="3" />
       <entry action="ProductivityGuide" count="1" />
@@ -59,7 +63,7 @@
       <entry action="SaveAll" count="4" />
       <entry action="SearchEverywhere" count="2" />
       <entry action="ShowReformatFileDialog" count="2" />
-      <entry action="ShowSettings" count="4" />
+      <entry action="ShowSettings" count="5" />
       <entry action="SmartTypeCompletion" count="3" />
       <entry action="Start.Use.Vcs" count="1" />
       <entry action="TemplateProjectProperties" count="2" />
@@ -78,7 +82,7 @@
     <feature id="editing.completion.cancelByControlArrows" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.recent.search" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.replace" count="47" last-shown="1538500075006" last-used="1538624497985" shown-count="94" />
+    <feature id="editing.completion.replace" count="50" last-shown="1542399189817" last-used="1542400606349" shown-count="110" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.camelprefix" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="SearchEverywhere" count="2" last-shown="0" last-used="1538501794041" shown-count="0" />
@@ -88,9 +92,9 @@
     <feature id="refactoring.introduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="1538623080206" last-used="0" shown-count="3" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="68" last-shown="0" last-used="1538624497991" shown-count="0" />
+    <feature id="editing.completion.basic" count="72" last-shown="0" last-used="1542400606357" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.select.word" count="8" last-shown="0" last-used="1538622757524" shown-count="0" />
+    <feature id="editing.select.word" count="11" last-shown="0" last-used="1542399387578" shown-count="0" />
     <feature id="navigation.recent.files" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.declaration" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishByDotEtc" count="0" last-shown="1538623080205" last-used="0" shown-count="3" />
@@ -108,11 +112,11 @@
     <feature id="ui.horizontal.scrolling" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="346" />
-      <option name="invocations" value="48" />
+      <option name="sparedCharacters" value="376" />
+      <option name="invocations" value="52" />
       <option name="startDate" value="1538418600000" />
-      <option name="dayCount" value="2" />
-      <option name="lastDate" value="1538591400000" />
+      <option name="dayCount" value="3" />
+      <option name="lastDate" value="1542393000000" />
     </completionStatsTag>
     <fixesStatsTag>
       <option name="invocations" value="0" />
@@ -127,7 +131,7 @@
       <entry path="File -&gt; Invalidate Caches / Restart..." count="1" />
       <entry path="File -&gt; New Scratch File" count="1" />
       <entry path="File -&gt; Settings for New Projects..." count="2" />
-      <entry path="File -&gt; Settings..." count="4" />
+      <entry path="File -&gt; Settings..." count="5" />
       <entry path="Help -&gt; Check for Updates..." count="1" />
       <entry path="Help -&gt; Edit Custom VM Options..." count="1" />
       <entry path="Help -&gt; Keymap Reference" count="2" />
@@ -143,7 +147,7 @@
       <entry shortcut="Alt+2" count="2" />
       <entry shortcut="Alt+3" count="2" />
       <entry shortcut="Alt+Insert" count="1" />
-      <entry shortcut="Backspace" count="874" />
+      <entry shortcut="Backspace" count="1083" />
       <entry shortcut="Ctrl+A" count="10" />
       <entry shortcut="Ctrl+Alt+I" count="1" />
       <entry shortcut="Ctrl+Alt+L" count="3" />
@@ -153,19 +157,22 @@
       <entry shortcut="Ctrl+C" count="2" />
       <entry shortcut="Ctrl+F" count="1" />
       <entry shortcut="Ctrl+K" count="6" />
-      <entry shortcut="Ctrl+L" count="5" />
+      <entry shortcut="Ctrl+L" count="6" />
       <entry shortcut="Ctrl+Left" count="4" />
       <entry shortcut="Ctrl+Minus" count="2" />
       <entry shortcut="Ctrl+N" count="3" />
       <entry shortcut="Ctrl+P" count="1" />
+      <entry shortcut="Ctrl+Period" count="2" />
       <entry shortcut="Ctrl+Q" count="1" />
       <entry shortcut="Ctrl+R" count="1" />
       <entry shortcut="Ctrl+Right" count="1" />
+      <entry shortcut="Ctrl+Right+Ctrl+Right" count="10" />
       <entry shortcut="Ctrl+S" count="5" />
       <entry shortcut="Ctrl+Shift+Close Bracket" count="1" />
       <entry shortcut="Ctrl+Shift+Enter" count="6" />
       <entry shortcut="Ctrl+Shift+F10" count="4" />
       <entry shortcut="Ctrl+Shift+K" count="1" />
+      <entry shortcut="Ctrl+Shift+L" count="1" />
       <entry shortcut="Ctrl+Shift+N" count="2" />
       <entry shortcut="Ctrl+Shift+Space" count="3" />
       <entry shortcut="Ctrl+Shift+V" count="3" />
@@ -177,21 +184,22 @@
       <entry shortcut="Ctrl+X" count="1" />
       <entry shortcut="Ctrl+Z" count="6" />
       <entry shortcut="Delete" count="7" />
-      <entry shortcut="Down" count="20" />
-      <entry shortcut="Enter" count="49" />
-      <entry shortcut="Escape" count="159" />
+      <entry shortcut="Down" count="27" />
+      <entry shortcut="Enter" count="79" />
+      <entry shortcut="Escape" count="177" />
+      <entry shortcut="F1" count="1" />
       <entry shortcut="F5" count="2" />
       <entry shortcut="Insert" count="1" />
-      <entry shortcut="Left" count="49" />
-      <entry shortcut="Right" count="57" />
-      <entry shortcut="Shift+Backspace" count="18" />
+      <entry shortcut="Left" count="50" />
+      <entry shortcut="Right" count="63" />
+      <entry shortcut="Shift+Backspace" count="22" />
       <entry shortcut="Shift+Escape" count="6" />
       <entry shortcut="Shift+F6" count="5" />
       <entry shortcut="Shift+Shift" count="2" />
       <entry shortcut="Shift+Tab" count="1" />
       <entry shortcut="Space" count="1" />
-      <entry shortcut="Tab" count="87" />
-      <entry shortcut="Up" count="25" />
+      <entry shortcut="Tab" count="92" />
+      <entry shortcut="Up" count="30" />
     </counts>
   </component>
   <component name="ToolWindowCollector">
@@ -200,7 +208,7 @@
       <entry toolWindow="Event Log by Activation" count="1" />
       <entry toolWindow="Favorites by Activation" count="2" />
       <entry toolWindow="Find by Activation" count="10" />
-      <entry toolWindow="Project by Activation" count="13" />
+      <entry toolWindow="Project by Activation" count="14" />
       <entry toolWindow="Python Console by Activation" count="3" />
       <entry toolWindow="Run by Activation" count="6" />
       <entry toolWindow="Terminal by Activation" count="2" />
@@ -222,10 +230,11 @@
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="AbstractNewProjectStep.Pure Python" count="2" />
-      <entry feature="StripeButton[Docker].hidden" count="2" />
+      <entry feature="AbstractNewProjectStep.Pure Python" count="3" />
+      <entry feature="StripeButton[Docker].hidden" count="3" />
       <entry feature="StripeButton[Version Control].shown" count="1" />
       <entry feature="execute.PythonConfigurationType.Run" count="5" />
+      <entry feature="ide.help.ideaInterface.editor" count="1" />
       <entry feature="ide.settings.Appearance" count="2" />
       <entry feature="ide.settings.Auto Import" count="1" />
       <entry feature="ide.settings.Color Scheme" count="1" />
@@ -235,13 +244,13 @@
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Project Interpreter" count="1" />
       <entry feature="ide.settings.Updates" count="1" />
-      <entry feature="ideaapp.started" count="10" />
+      <entry feature="ideaapp.started" count="11" />
       <entry feature="python.console.local" count="3" />
       <entry feature="terminal.linux" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="1" />
-      <entry feature="welcome.screen.null" count="2" />
+      <entry feature="welcome.screen.null" count="4" />
     </counts>
   </component>
 </application>

@@ -93,3 +93,6 @@ zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
 source $HOME/.antigen/bundles/supercrabtree/k/k.plugin.zsh
 export IN_THE_LIBRARY=0
 source $HOME/.zsh/library
+
+# opam configuration
+test -r /home/op3ntrp/.opam/opam-init/init.zsh && . /home/op3ntrp/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

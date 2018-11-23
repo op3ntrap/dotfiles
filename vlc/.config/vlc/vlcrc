@@ -183,6 +183,11 @@
 # Add a YUV4MPEG2 header (boolean)
 #yuv-yuv4mpeg2=0
 
+[xdg_shell] # XDG shell surface
+
+# Wayland display (string)
+#wl-display=
+
 [xcb_xv] # XVideo output (XCB)
 
 # XVideo adaptor number (integer)
@@ -197,6 +202,11 @@
 
 # X11 display (string)
 #x11-display=
+
+[wl_shell] # Wayland shell surface
+
+# Wayland display (string)
+#wl-display=
 
 [vmem] # Video memory output
 
@@ -882,12 +892,6 @@
 # Caching value (ms) (integer)
 #sout-rtp-caching=300
 
-# SRTP key (hexadecimal) (string)
-#sout-rtp-key=
-
-# SRTP salt (hexadecimal) (string)
-#sout-rtp-salt=
-
 # MP4A LATM (boolean)
 #sout-rtp-mp4a-latm=0
 
@@ -982,28 +986,10 @@
 # Delay of the ES (ms) (integer)
 #sout-delay-delay=0
 
-[stream_out_chromecast] # Chromecast stream output
+[stream_out_chromaprint] # Chromaprint stream output
 
-# ? (string)
-#sout-chromecast-ip=
-
-# ? (integer)
-#sout-chromecast-port=8009
-
-# ? (boolean)
-#sout-chromecast-video=1
-
-# HTTP port (integer)
-#sout-chromecast-http-port=8010
-
-# Performance warning (integer)
-#sout-chromecast-show-perf-warning=1
-
-# Enable Audio passthrough (boolean)
-#sout-chromecast-audio-passthrough=0
-
-# Conversion quality (integer)
-#sout-chromecast-conversion-quality=1
+# Duration of the fingerprinting (integer)
+#duration=90
 
 [bridge] # Bridge stream output
 
@@ -1102,32 +1088,6 @@
 
 # Title display mode (integer)
 #rss-title=-1
-
-[remoteosd] # Remote-OSD over VNC
-
-# VNC Host (string)
-#rmtosd-host=myvdr
-
-# VNC Port (integer)
-#rmtosd-port=20001
-
-# VNC Password (string)
-#rmtosd-password=
-
-# VNC poll interval (integer)
-#rmtosd-update=1000
-
-# VNC polling (boolean)
-#rmtosd-vnc-polling=0
-
-# Mouse events (boolean)
-#rmtosd-mouse-events=0
-
-# Key events (boolean)
-#rmtosd-key-events=0
-
-# Alpha transparency value (default 255) (integer)
-#rmtosd-alpha=255
 
 [mosaic] # Mosaic video sub source
 
@@ -1935,11 +1895,6 @@ qt-privacy-ask=0
 
 [motion] # motion control interface
 
-[lirc] # Infrared remote control interface
-
-# Change the lirc configuration file (string)
-#lirc-file=
-
 [gestures] # Mouse gestures control interface
 
 # Motion threshold (10-100) (integer)
@@ -2187,10 +2142,10 @@ qt-privacy-ask=0
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -2387,7 +2342,7 @@ qt-privacy-ask=0
 #avcodec-codec=
 
 # Hardware decoding (string)
-#avcodec-hw=any
+avcodec-hw=vaapi
 
 # Threads (integer)
 #avcodec-threads=0
@@ -2476,6 +2431,14 @@ qt-privacy-ask=0
 # Advanced options (string)
 #sout-avcodec-options=
 
+[aribsub] # ARIB subtitles decoder
+
+# Ignore ruby (furigana) (boolean)
+#aribsub-ignore-ruby=0
+
+# Use Core Text renderer (boolean)
+#aribsub-use-coretext=0
+
 [a52] # ATSC A/52 (AC-3) audio decoder
 
 # A/52 dynamic range compression (boolean)
@@ -2515,7 +2478,7 @@ qt-privacy-ask=0
 #alsa-audio-channels=6
 
 # Software gain (float)
-#alsa-gain=1.000000
+alsa-gain=0.857375
 
 [afile] # File audio output
 
@@ -2827,47 +2790,6 @@ qt-privacy-ask=0
 # Stream public (boolean)
 #sout-shout-public=0
 
-[access_output_livehttp] # HTTP Live streaming output
-
-# Segment length (integer)
-#sout-livehttp-seglen=10
-
-# Number of segments (integer)
-#sout-livehttp-numsegs=0
-
-# Number of first segment (integer)
-#sout-livehttp-initial-segment-number=1
-
-# Split segments anywhere (boolean)
-#sout-livehttp-splitanywhere=0
-
-# Delete segments (boolean)
-#sout-livehttp-delsegs=1
-
-# Use muxers rate control mechanism (boolean)
-#sout-livehttp-ratecontrol=0
-
-# Allow cache (boolean)
-#sout-livehttp-caching=0
-
-# Use randomized IV for encryption (boolean)
-#sout-livehttp-generate-iv=0
-
-# Index file (string)
-#sout-livehttp-index=
-
-# Full URL to put in index file (string)
-#sout-livehttp-index-url=
-
-# AES key URI to place in playlist (string)
-#sout-livehttp-key-uri=
-
-# AES key file (string)
-#sout-livehttp-key-file=
-
-# File where vlc reads key-uri and keyfile-location (string)
-#sout-livehttp-key-loadfile=
-
 [http] # HTTP stream output
 
 # Username (string)
@@ -3071,6 +2993,17 @@ qt-privacy-ask=0
 # Frame rate (string)
 #timecode-fps=25/1
 
+[smb] # SMB input
+
+# Username (string)
+#smb-user=
+
+# Password (string)
+#smb-pwd=
+
+# SMB domain (string)
+#smb-domain=
+
 [shm] # Shared memory framebuffer
 
 # Frame rate (float)
@@ -3112,12 +3045,6 @@ qt-privacy-ask=0
 # RTCP (local) port (integer)
 #rtcp-port=0
 
-# SRTP key (hexadecimal) (string)
-#srtp-key=
-
-# SRTP salt (hexadecimal) (string)
-#srtp-salt=
-
 # Maximum RTP sources (integer)
 #rtp-max-src=1
 
@@ -3132,11 +3059,6 @@ qt-privacy-ask=0
 
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
-
-[nfs] # NFS input
-
-# Set NFS uid/guid automatically (boolean)
-#nfs-auto-guid=1
 
 [live555] # RTP/RTSP/SDP demuxer (using Live555)
 
@@ -3389,6 +3311,17 @@ qt-privacy-ask=0
 
 # Continuous 22kHz tone (integer)
 #dvb-tone=-1
+
+[cdda] # Audio CD input
+
+# Audio CD device (string)
+#cd-audio=/dev/sr0
+
+# CDDB Server (string)
+#cddb-server=freedb.videolan.org
+
+# CDDB port (integer)
+#cddb-port=80
 
 [avio] # libavformat AVIO access
 
@@ -3945,7 +3878,7 @@ qt-privacy-ask=0
 #loop=0
 
 # Repeat current item (boolean)
-repeat=1
+#repeat=0
 
 # Play and exit (boolean)
 #play-and-exit=0

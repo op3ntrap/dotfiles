@@ -14,7 +14,7 @@ scheme sftp
 scheme smb
 scheme mtp
 transport /usr/lib/audacious/Transport/mms.so
-stamp 1524522302
+stamp 1535522813
 version 48
 flags 0
 name MMS Plugin
@@ -72,6 +72,18 @@ config 0
 enabled 1
 ext audpl
 saves 1
+playlist /usr/lib/audacious/Container/cue.so
+stamp 1535522813
+version 48
+flags 0
+name Cue Sheet Plugin
+domain audacious-plugins
+priority 0
+about 0
+config 0
+enabled 1
+ext cue
+saves 0
 playlist /usr/lib/audacious/Container/m3u.so
 stamp 1535522813
 version 48
@@ -136,8 +148,24 @@ enabled 1
 scheme aac
 subtunes 0
 writes 0
+input /usr/lib/audacious/Input/amidi-plug.so
+stamp 1535522813
+version 48
+flags 0
+name AMIDI-Plug (MIDI Player)
+domain audacious-plugins
+priority 0
+about 1
+config 1
+enabled 1
+scheme mid
+scheme midi
+scheme rmi
+scheme rmid
+subtunes 0
+writes 0
 input /usr/lib/audacious/Input/cdaudio-ng.so
-stamp 1524522302
+stamp 1535522813
 version 48
 flags 0
 name Audio CD Plugin

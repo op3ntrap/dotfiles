@@ -32,7 +32,7 @@
 #*__*# Floating-Application-Configuration
 #*__*# Application-Launch-Shortcuts
 #*__*# Audio-Configuration
-#*__*# Screen-Brightness-Controls-Configuration
+#*__*# MultimediaKeyboardControlsConfiguration
 
 ################################################################################################
 
@@ -504,8 +504,7 @@ bindsym $mod+Return exec kitty -1
 bindsym $mod+i exec calamares_polkit
 bindsym $mod+Shift+F1 exec kitty 
 bindsym $mod+F4 exec firefox-developer-edition
-bindsym $mod+F5 exec kitty -1 ranger
-bindsym $mod+F2 exec chromium --disk-cache-dir=/tmp/cache
+bindsym $mod+F5 exec kitty -1 ranger bindsym $mod+F2 exec chromium --disk-cache-dir=/tmp/cache
 bindsym $mod+F3 exec nvim-gtk
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+t exec --no-startup-id pkill compton
@@ -532,9 +531,20 @@ exec --no-startup-id start-pulseaudio-x11
 bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
-#*__*# Screen-Brightness-Controls-Configuration
+#*__*# MultimediaKeyboardControlsConfiguration
 ################################################################################################
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous

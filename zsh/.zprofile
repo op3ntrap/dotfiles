@@ -1,4 +1,4 @@
-exec "pcmanfm -d &"
+#exec "/usr/bin/pcmanfm -d &"
 export PATH=~/.npm/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 #export PATH=/opt/anaconda3/bin:$PATH

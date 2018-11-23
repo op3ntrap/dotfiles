@@ -1,3 +1,40 @@
+/home/op3ntrp/Documents/UPSC
+/home/op3ntrp/Documents/UPSC/CurrentAffairs
+/home/op3ntrp/Documents/UPSC/CurrentAffairs/Current Affairs PDFs Monthly
+/mnt/root/var
+/mnt/root/dev
+/mnt/root/run
+/mnt/root/etc
+/mnt/root/tmp
+/mnt/root/sys
+/mnt/root/proc
+/mnt/root/usr
+/mnt/root/home
+/mnt/root/mnt
+/mnt/root/root
+/mnt/root/srv
+/mnt/root/boot
+/mnt/root/opt
+/home/op3ntrp/Downloads/WB
+/home/op3ntrp/Documents/Scripts
+/home/op3ntrp/Documents/Scripts/bash
+/home/op3ntrp/Downloads/W
+/home/op3ntrp/Downloads/Video
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/TorBrowser
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/browser
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/defaults
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/dictionaries
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/fonts
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/gtk2
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser/icons
+/home/op3ntrp/Downloads/Programs/tor-browser_en-US/Browser
+/home/op3ntrp/Repos/nyx
+/home/op3ntrp/Repos/nyx/nyx
+/home/op3ntrp/Repos/nyx/test
+/home/op3ntrp/Repos/nyx/web
+/home/op3ntrp/vmware
+/home/op3ntrp/VirtualBox VMs
+/home/op3ntrp/VisionIAS
 /opt/XMind ZEN
 /opt/dropbox
 /opt/Calibre Library
@@ -366,7 +403,6 @@
 /home/Downloads/Documents
 /home/Downloads/Fonts
 /home/Downloads/Transmission
-/home/Downloads/Video
 /home/Downloads/youtube-dl(1) — Arch manual pages_files
 /home/Downloads/TabSessionManager - Backup
 /home/Downloads/wtf_0.2.2_linux_amd64
@@ -805,10 +841,8 @@
 /home/op3ntrp/.dotfiles/fzf
 /home/op3ntrp/.dotfiles/zsh
 /home/Downloads/Programs/pango-1.42.4
-/home/Downloads/Programs
 /home/Downloads/Programs/seamonkey
 /home/op3ntrp/.dotfiles/youtube-dl/.config/youtube-dl
-/home/Downloads/Music
 /usr/lib/modules/4.16.18-rt12-MANJARO/build/drivers
 /usr/lib/modules/4.16.18-rt12-MANJARO/build/drivers/iio
 /usr/lib/modules/4.16.18-rt12-MANJARO/build/drivers/iio/amplifiers
@@ -872,7 +906,6 @@
 /opt/anaconda/intelpython2
 /opt/anaconda/intelpython3
 /opt/anaconda
-/home/Repos
 /home/Repos/vscode
 /home/Shared/dotfiles
 /home/Shared
@@ -885,12 +918,24 @@
 /usr/share/java/serviio
 /usr/share/java/serviio/config
 /var
-/home/Documents
 /home/Downloads/Torrents
-/home/Downloads
 /home/op3ntrp/export/gg
 /home/op3ntrp/export
-/home/op3ntrp/.dotfiles
 /opt
+/home/op3ntrp/.dotfiles
+/home/Repos
+/home/Repos/nyx
+/home/Downloads/Programs/tor-browser_en-US
+/home/Downloads/Programs/tor-browser_en-US/Browser
+/home/Downloads/Programs
+/home/Downloads/W
+/home/Documents/Scripts
+/home/Downloads/WB
+/home/Downloads/Video
+/mnt/root
+/home/Documents
+/home/Documents/UPSC/CurrentAffairs/Current Affairs PDFs Monthly
+/home/Downloads
+/home/Downloads/Music
 /home/op3ntrp
 /home/op3ntrp/.dotfiles
