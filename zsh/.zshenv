@@ -1,5 +1,6 @@
 DISABLE_AUTO_TITLE='true'
-NVIM=nvim-gtk
+NVIM=nvim
+TERM=xterm-kitty
 VISUAL=$NVIM
 EDITOR=$NVIM
 PLUGDIR='$HOME/.local/share/nvim/Plugs'

@@ -504,7 +504,8 @@ bindsym $mod+Return exec kitty -1
 bindsym $mod+i exec calamares_polkit
 bindsym $mod+Shift+F1 exec kitty 
 bindsym $mod+F4 exec firefox-developer-edition
-bindsym $mod+F5 exec kitty -1 ranger bindsym $mod+F2 exec chromium --disk-cache-dir=/tmp/cache
+bindsym $mod+F5 exec kitty -1 ranger 
+bindsym $mod+F2 exec chromium 
 bindsym $mod+F3 exec nvim-gtk
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+t exec --no-startup-id pkill compton
