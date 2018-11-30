@@ -28,7 +28,7 @@
 #*__*# i3-Gaps-Settings
 #*__*# i3-Colour-Pallete
 #*__*# WorkspaceConfiguration
-#*__*# Workspace-Application-Allocation-Configuration
+#*__*# WorkspaceApplicationAllocationConfiguration
 #*__*# Floating-Application-Configuration
 #*__*# Application-Launch-Shortcuts
 #*__*# Audio-Configuration
@@ -432,8 +432,9 @@ set $ws7 7:
 set $ws8 8:
 set $ws9 9:連
 set $wsXDM ⺏
+set $wsMusic   
 ################################################################################################
-#*__*# Workspace-Application-Allocation-Configuration
+#*__*# WorkspaceApplicationAllocationConfiguration
 ################################################################################################
 
 # Open applications on specific workspaces
@@ -448,6 +449,8 @@ assign [class="Chromium"] $ws7
 # assign [class="Skype"] $ws5
 assign [class="Pcmanfm"] $ws4
 assign [class="java-lang-Thread"] $wsXDM
+assign [class="pulseeffects"] $wsMusic
+assign [class="PulseEffects"] $wsMusic
 ################################################################################################
 #*__*# Floating-Application-Configuration
 ################################################################################################
@@ -508,6 +511,8 @@ bindsym $mod+F4 exec firefox-developer-edition
 bindsym $mod+F5 exec kitty -1 ranger 
 bindsym $mod+F2 exec chromium 
 bindsym $mod+F3 exec nvim-gtk
+bindsym $mod+Shift+F3 exec pulseeffects
+
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton.conf 
