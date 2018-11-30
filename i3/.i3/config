@@ -182,8 +182,9 @@ exec_always --no-startup-id clight -c
 # exec compton -b --config ~/.config/compton.conf 
 # exec_always --no-startup-id ff-theme-util
 # exec_always --no-startup-id "sleep 20;nice -20 xdman"
-exec_always --no-startup-id libinput-gestures-setup start
+# exec_always --no-startup-id libinput-gestures-setup start
 # exec --no-startup-id blueman
+exec --no-startup-id nm-applet
 # exec --no-startup-id clipit
 # exec --no-startup-id desktop-items
 # exec --no-startup-id manjaro-hello

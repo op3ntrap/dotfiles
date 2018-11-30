@@ -1,3 +1,11 @@
+/home/op3ntrp/.config/PulseEffects
+/home/op3ntrp/Downloads/Typora-linux-x64
+/home/op3ntrp/Downloads/Typora-linux-x64/resources
+/home/op3ntrp/Downloads/Typora-linux-x64/locales
+/home/Shared/boot_/efi
+/home/Shared/boot_/grub
+/home/Shared/boot_/memtest86+
+/home/Shared/boot_/syslinux
 /home/op3ntrp/AudioBooks/home/op3ntrp/World Order - Henry Kissinger (Unabridged)
 /home/op3ntrp/AudioBooks/home/op3ntrp/Toddlers Are A^^holes It's Not Your Fault by Bunmi Laditan (Audiobook)
 /home/op3ntrp/AudioBooks/home
@@ -505,7 +513,6 @@
 /home/Shared/dotfiles/youtube-dl
 /home/Shared/dotfiles/znt
 /home/Shared/dotfiles/zsh
-/home/Shared/boot_
 /home/Shared/fonts
 /home/Shared/Documents
 /usr/lib/modules/4.16.18-rt12-MANJARO/build/drivers/accessibility
@@ -936,14 +943,18 @@
 /mnt/root
 /home/Documents
 /home/Documents/UPSC/CurrentAffairs/Current Affairs PDFs Monthly
-/home/Downloads/Music
 /home/op3ntrp/.antigen/bundles/supercrabtree/k
-/home
 /home/op3ntrp/AudioBooks/home/op3ntrp
-/home/Downloads
 /home/op3ntrp/AudioBooks
 /home/Downloads/Video
-/home/op3ntrp/.dotfiles
 /home/op3ntrp/.dotfiles/zsh
+/home/Shared/boot_
+/home
+/home/op3ntrp/.dotfiles/spacevim
+/home/op3ntrp/.dotfiles
+/home/Downloads
+/home/Downloads/Typora-linux-x64
+/home/Downloads/Music
+/home/op3ntrp/.config/PulseEffects/irs
 /home/op3ntrp
 /home/op3ntrp/.dotfiles

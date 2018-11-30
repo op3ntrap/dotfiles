@@ -58,3 +58,5 @@ cd .dotfiles/
 cp ~/.histfile zsh/
 rm ~/.histfile 
 stow zsh/
+python stow.py -v
+zsh
