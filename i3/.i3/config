@@ -54,12 +54,14 @@ set $mod Mod4
 #*__*# WindowsBorderConfig
 ################################################################################################
 
+for_window [class="^.*"] border pixel 4
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window pixel 1
+new_window pixel 4
 new_float normal
 
 # Hide borders
-hide_edge_borders none
+hide_edge_borders smart
+
 
 # change borders
 bindsym $mod+u border none
@@ -179,7 +181,8 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id setcursor
 exec_always --no-startup-id conky -b 
 exec_always --no-startup-id clight -c
-# exec compton -b --config ~/.config/compton.conf 
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec compton -b --config ~/.config/compton.conf
 # exec_always --no-startup-id ff-theme-util
 # exec_always --no-startup-id "sleep 20;nice -20 xdman"
 # exec_always --no-startup-id libinput-gestures-setup start
@@ -320,16 +323,18 @@ bindsym $mod+m bar mode toggle
 ################################################################################################
 #*__*# i3-gaps-settings
 ################################################################################################
-
+gaps inner 4
+gaps outer -3
 # Set inner/outer gaps
-gaps inner 3
-gaps outer -4
+# gaps inner 2
+# gaps outer -7
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
 smart_borders on
+smart_gaps on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -373,13 +378,22 @@ mode "$mode_gaps_outer" {
 ################################################################################################
 
 # Theme colors
-# class                   border  backgr. text    indic.   child_border
-client.focused          #556064 #556064 #80FFF9 #FDF6E3
-client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-client.placeholder      #000000 #0c0c0c #ffffff #000000 
-client.background       #000000
+#class                   border  backgr. text    indic.   child_border
+# client.focused          #556064 #556064 #80FFF9 #FDF6E3
+# client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+# client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+# client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+# client.placeholder      #000000 #0c0c0c #ffffff #000000
+# client.background       #000000
+#
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+ 
+client.background       #ffffff
 
 # Color palette used for the terminal ( ~/.extend.Xresources file )
 # Colors are gathered based on the documentation:
@@ -443,14 +457,15 @@ assign [class="Vim"] $ws2
 assign [class="Pamac-manager"] $ws5
 assign [class="Ranger"] $ws4
 assign [class="Chromium"] $ws7
-# assign [class="Thunderbird"] $ws1
-# assign [class="Pale moon"] $ws2
-# assign [class="Pcmanfm"] $ws3
-# assign [class="Skype"] $ws5
 assign [class="Pcmanfm"] $ws4
 assign [class="java-lang-Thread"] $wsXDM
 assign [class="pulseeffects"] $wsMusic
 assign [class="PulseEffects"] $wsMusic
+# assign [class="Thunderbird"] $ws1
+# assign [class="Pale moon"] $ws2
+# assign [class="Pcmanfm"] $ws3
+# assign [class="Skype"] $ws5
+
 ################################################################################################
 #*__*# Floating-Application-Configuration
 ################################################################################################
@@ -459,7 +474,7 @@ assign [class="PulseEffects"] $wsMusic
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
-for_window [title="File Transfer*"] floating enable
+# for_window [title="File Transfer*"] floating enable
 for_window [class="Galculator"] floating enable border pixel 1
 for_window [class="GParted"] floating enable border normal
 for_window [title="i3_help"] floating enable sticky enable border normal
