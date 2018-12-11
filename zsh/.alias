@@ -5,6 +5,7 @@ alias df='df -h'
 alias chowner='sudo chown risan:risan'
 alias du='du -h'
 alias dream='sudo powerpill -Swu && sudo pacman -Syyu'
+alias free_pkg_lck='sudo rm /var/cache/pacman/pkg/cache.lck'
 # GIT
 alias repup='git add . && git commit -m "Routine Update"'
 # RANGER
@@ -28,6 +29,7 @@ alias brb='source ~/.zshrc'
 alias swap-sv='rm -R $HOME/.cache/SpaceVim/swap'
 alias swap-nv='rm -R $HOME/.cache/nvim/swap'
 alias ownit='sudo chmod -R 777'
+alias stow_it='python ./stow.py -v'
 # SYSTEMCTL 
 alias btstart='systemctl enable bluetooth.service && systemctl start bluetooth.service'
 alias btstop='systemctl disable bluetooth.service'
