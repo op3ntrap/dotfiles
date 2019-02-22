@@ -181,8 +181,10 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id setcursor
 exec_always --no-startup-id conky -b 
 exec_always --no-startup-id clight -c
+# exec_always --no-startup-id mono ~/.local/bin/RemoteMouse.exe
+
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec compton -b --config ~/.config/compton.conf
+# exec compton -b --config ~/.config/compton.conf
 # exec_always --no-startup-id ff-theme-util
 # exec_always --no-startup-id "sleep 20;nice -20 xdman"
 # exec_always --no-startup-id libinput-gestures-setup start

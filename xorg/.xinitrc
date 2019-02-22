@@ -87,4 +87,4 @@ get_session(){
   echo "dbus-launch ${dbus_args[*]}"
 }
 exec $(get_session)
-xset r rate 351 99
+xset r rate 346 25

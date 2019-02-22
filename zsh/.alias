@@ -4,8 +4,10 @@ alias rm='rm'
 alias df='df -h'
 alias chowner='sudo chown risan:risan'
 alias du='du -h'
-alias dream='sudo powerpill -Swu && sudo pacman -Syyu'
+alias dream='sudo powerpill -Swu && sudo pacman -Syyu --ignore=python-pdfkit,python-python-whois'
 alias free_pkg_lck='sudo rm /var/cache/pacman/pkg/cache.lck'
+alias rfpd='sudo pacman -Syy'
+alias eye_sore='redshift -PO 6000'
 # GIT
 alias repup='git add . && git commit -m "Routine Update"'
 # RANGER
