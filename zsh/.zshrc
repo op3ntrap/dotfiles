@@ -62,7 +62,7 @@ zmodload zsh/terminfo
 # Modules
 colors
 export BROWSER=
-xdg-settings set default-web-browser chromium.desktop
+xdg-settings set default-web-browser firefox.desktop
 
 #--------------------------------------------------------------------------------------------------------------------
 ###ANTIGEN INIT
@@ -95,4 +95,4 @@ export IN_THE_LIBRARY=0
 source $HOME/.zsh/library
 
 # opam configuration
-test -r /home/op3ntrp/.opam/opam-init/init.zsh && . /home/op3ntrp/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+test -r /home/op3ntrap/.opam/opam-init/init.zsh && . /home/op3ntrap/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
